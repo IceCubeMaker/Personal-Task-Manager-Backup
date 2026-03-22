@@ -18,15 +18,15 @@
           "type": "end",
           "text": "End",
           "x": -984,
-          "y": 1440
+          "y": 1584
         },
         "n_1774089330906": {
           "id": "n_1774089330906",
           "type": "flowchart",
           "text": "Pomodoro Time!",
           "next": "n_1774128875075",
-          "x": -1128,
-          "y": 360,
+          "x": -1152,
+          "y": 456,
           "chartRef": "chart_1774088952960"
         },
         "n_1774111543197": {
@@ -70,7 +70,7 @@
           "text": "Turn off the PC",
           "next": "end",
           "x": -984,
-          "y": 1320,
+          "y": 1464,
           "trackingId": "n_1774113759035",
           "trackDaily": true
         },
@@ -80,7 +80,7 @@
           "text": "Evening Routine",
           "next": "n_1774144665712",
           "x": -984,
-          "y": 1080,
+          "y": 1224,
           "chartRef": "chart_1774114072987"
         },
         "n_1774128663055": {
@@ -102,7 +102,7 @@
           "type": "flowchart",
           "text": "Gaming Day!",
           "x": -792,
-          "y": 552,
+          "y": 528,
           "next": "n_1774128875075",
           "chartRef": "chart_1774097960453"
         },
@@ -153,7 +153,7 @@
           "text": "Is it after 22:00?",
           "x": -96,
           "y": 600,
-          "yes": "n_1774114150483",
+          "yes": "n_1774202342863",
           "no": "n_1774128875075",
           "autoType": "time",
           "timeOp": "after",
@@ -163,7 +163,7 @@
           "id": "n_1774131544668",
           "type": "tasklist",
           "text": "Do a random tasks from the inbox",
-          "next": "n_1774114150483",
+          "next": "n_1774202322107",
           "x": -984,
           "y": 960,
           "duration": null
@@ -173,7 +173,7 @@
           "type": "condition",
           "text": "Is the PC on?",
           "x": -984,
-          "y": 1200,
+          "y": 1344,
           "yes": "n_1774113759035",
           "no": "end"
         },
@@ -186,6 +186,23 @@
           "yes": "n_1774089330906",
           "no": "n_1774128663055",
           "rememberAnswer": false
+        },
+        "n_1774202322107": {
+          "id": "n_1774202322107",
+          "type": "flowchart",
+          "text": "Dinner",
+          "next": "n_1774114150483",
+          "x": -984,
+          "y": 1104
+        },
+        "n_1774202342863": {
+          "id": "n_1774202342863",
+          "type": "condition",
+          "text": "Do you feel hungry?",
+          "x": -96,
+          "y": 1104,
+          "yes": "n_1774202322107",
+          "no": "n_1774114150483"
         }
       },
       "groups": []
@@ -207,8 +224,8 @@
           "id": "end",
           "type": "end",
           "text": "End",
-          "x": -264,
-          "y": 816
+          "x": -312,
+          "y": 1008
         },
         "n_1774089104265": {
           "id": "n_1774089104265",
@@ -216,7 +233,7 @@
           "text": "Pomodoro Break",
           "next": "n_1774089390376",
           "x": 1152,
-          "y": 1128,
+          "y": 1176,
           "chartRef": "chart_1774089091794"
         },
         "n_1774089390376": {
@@ -248,7 +265,7 @@
           "text": "Is it after 18:00?",
           "x": 0,
           "y": 696,
-          "yes": "n_1774193105692",
+          "yes": "n_1774197787044",
           "no": "n_1774091904086_d1774128477685",
           "autoType": "time",
           "timeA": "18:00"
@@ -259,7 +276,7 @@
           "text": "Pomodoro Studying",
           "next": "n_1774194784794",
           "x": 1152,
-          "y": 816,
+          "y": 864,
           "duration": 2700,
           "listId": "list_1774093880028"
         },
@@ -331,7 +348,7 @@
           "id": "n_1774193105692",
           "type": "condition",
           "text": "Do you want to continue?",
-          "x": 0,
+          "x": 264,
           "y": 816,
           "yes": "n_1774091904086_d1774128477685",
           "no": "end"
@@ -434,9 +451,20 @@
           "text": "How do you feel?",
           "next": "n_1774089104265",
           "x": 1152,
-          "y": 960,
+          "y": 1008,
           "trackingId": null,
           "moodNote": false
+        },
+        "n_1774197787044": {
+          "id": "n_1774197787044",
+          "type": "auto",
+          "text": "Is it after 20:00?",
+          "x": 0,
+          "y": 816,
+          "yes": "end",
+          "no": "n_1774193105692",
+          "autoType": "time",
+          "timeA": "20:00"
         }
       }
     },
@@ -450,15 +478,15 @@
           "type": "start",
           "text": "Start",
           "next": "n_1774090997906",
-          "x": 384,
-          "y": 192
+          "x": 144,
+          "y": 72
         },
         "end": {
           "id": "end",
           "type": "end",
           "text": "End",
-          "x": 192,
-          "y": 1512
+          "x": 336,
+          "y": 1848
         },
         "n_1774089295502": {
           "id": "n_1774089295502",
@@ -509,7 +537,7 @@
           "text": "Play a game",
           "next": "end",
           "x": 504,
-          "y": 1080,
+          "y": 1032,
           "listId": "list_1774090725205"
         },
         "n_1774090948387": {
@@ -518,9 +546,9 @@
           "text": " Go outside",
           "next": "end",
           "x": 384,
-          "y": 648,
+          "y": 480,
           "trackingId": "n_1774090948387",
-          "nextIfVisited": "n_1774089629845",
+          "nextIfVisited": "n_1774196730294",
           "duration": 900,
           "trackDaily": true
         },
@@ -528,21 +556,22 @@
           "id": "n_1774090997906",
           "type": "auto",
           "text": "Is it after 16:00",
-          "x": 384,
-          "y": 384,
-          "yes": "n_1774090948387",
-          "no": "n_1774094259699",
+          "x": 144,
+          "y": 288,
+          "yes": "n_1774094259699",
+          "no": "n_1774090948387",
           "autoType": "time",
-          "timeA": "16:00"
+          "timeA": "16:00",
+          "timeOp": "after"
         },
         "n_1774094259699": {
           "id": "n_1774094259699",
           "type": "auto",
           "text": "Is it between 11:30 and 12:30?",
-          "x": 168,
-          "y": 816,
+          "x": 144,
+          "y": 648,
           "yes": "n_1774094316910",
-          "no": "n_1774089629845",
+          "no": "n_1774196730294",
           "autoType": "time",
           "timeOp": "between",
           "timeA": "11:30",
@@ -553,9 +582,28 @@
           "type": "flowchart",
           "text": "New step",
           "next": "end",
-          "x": -168,
-          "y": 816,
+          "x": -192,
+          "y": 648,
           "chartRef": "chart_1774094119629"
+        },
+        "n_1774196730294": {
+          "id": "n_1774196730294",
+          "type": "condition",
+          "text": "Do you know what you want to do during the break?",
+          "x": 504,
+          "y": 648,
+          "yes": "n_1774196764773",
+          "no": "n_1774089629845"
+        },
+        "n_1774196764773": {
+          "id": "n_1774196764773",
+          "type": "action",
+          "text": "Then do that",
+          "next": "end",
+          "x": 1056,
+          "y": 816,
+          "trackingId": null,
+          "duration": 900
         }
       }
     },
@@ -607,7 +655,7 @@
           "trackingId": null
         }
       },
-      "categoryId": "fcat_1774116790698"
+      "categoryId": "fcat_1774202197339"
     },
     {
       "id": "chart_1774097960453",
@@ -834,7 +882,7 @@
           "varDefault": "false"
         }
       },
-      "categoryId": "fcat_1774116790698"
+      "categoryId": "fcat_1774202197339"
     },
     {
       "id": "chart_1774111620251",
@@ -989,6 +1037,161 @@
       },
       "groups": [],
       "categoryId": "fcat_1774116790698"
+    },
+    {
+      "id": "chart_1774116898629",
+      "name": "Meal Planning",
+      "nodes": {
+        "start_1774116898629": {
+          "id": "start_1774116898629",
+          "type": "start",
+          "text": "Start",
+          "next": "n_1774116900536",
+          "x": -24,
+          "y": 216
+        },
+        "end_1774116898629": {
+          "id": "end_1774116898629",
+          "type": "end",
+          "text": "End",
+          "x": 2280,
+          "y": 192
+        },
+        "n_1774116900536": {
+          "id": "n_1774116900536",
+          "type": "addtask",
+          "text": "What would you like to eat on Monday?",
+          "next": "n_1774117011119",
+          "x": 264,
+          "y": 144,
+          "listId": "list_1774116923634",
+          "maxTasks": 1,
+          "minTasks": 1
+        },
+        "n_1774117011119": {
+          "id": "n_1774117011119",
+          "type": "addtask",
+          "text": "Check your fridge. What ingredients do you need that you don't have?",
+          "next": "n_1774117055938",
+          "x": 264,
+          "y": 264,
+          "listId": "list_1774115760526"
+        },
+        "n_1774117055938": {
+          "id": "n_1774117055938",
+          "type": "addtask",
+          "text": "What do you want to eat on tuesday?",
+          "next": "n_1774117074411",
+          "x": 552,
+          "y": 144,
+          "listId": "list_1774116923634",
+          "maxTasks": 1
+        },
+        "n_1774117074411": {
+          "id": "n_1774117074411",
+          "type": "addtask",
+          "text": "Check the fridge. Is there anything you need to buy?",
+          "next": "n_1774117109125",
+          "x": 552,
+          "y": 264,
+          "listId": "list_1774115760526"
+        },
+        "n_1774117109125": {
+          "id": "n_1774117109125",
+          "type": "addtask",
+          "text": "What do you want to eat on wednesday?",
+          "next": "n_1774117124309",
+          "x": 840,
+          "y": 144,
+          "maxTasks": 1,
+          "listId": "list_1774116923634"
+        },
+        "n_1774117124309": {
+          "id": "n_1774117124309",
+          "type": "addtask",
+          "text": "Check your fridge. Is there anything you need to buy?",
+          "next": "n_1774117163973",
+          "x": 840,
+          "y": 264,
+          "listId": "list_1774115760526"
+        },
+        "n_1774117163973": {
+          "id": "n_1774117163973",
+          "type": "addtask",
+          "text": "What do you want to eat on thursday?",
+          "next": "n_1774117189219",
+          "x": 1128,
+          "y": 144,
+          "maxTasks": 1
+        },
+        "n_1774117189219": {
+          "id": "n_1774117189219",
+          "type": "addtask",
+          "text": "Check your fridge. Do you need to buy something?",
+          "next": "n_1774117213153",
+          "x": 1128,
+          "y": 264,
+          "listId": "list_1774115760526"
+        },
+        "n_1774117213153": {
+          "id": "n_1774117213153",
+          "type": "addtask",
+          "text": "What do you want to eat on friday?",
+          "next": "n_1774117230483",
+          "x": 1416,
+          "y": 144,
+          "listId": "list_1774116923634",
+          "maxTasks": 1
+        },
+        "n_1774117230483": {
+          "id": "n_1774117230483",
+          "type": "addtask",
+          "text": "Check your fridge. Do you need to buy something?",
+          "next": "n_1774117248267",
+          "x": 1416,
+          "y": 264,
+          "listId": "list_1774115760526"
+        },
+        "n_1774117248267": {
+          "id": "n_1774117248267",
+          "type": "addtask",
+          "text": "What do you want to eat on Saturday?",
+          "next": "n_1774117268403",
+          "x": 1704,
+          "y": 144,
+          "listId": "list_1774116923634",
+          "maxTasks": 1
+        },
+        "n_1774117268403": {
+          "id": "n_1774117268403",
+          "type": "addtask",
+          "text": "Check your fridge. Do you need to buy something?",
+          "next": "n_1774117299595",
+          "x": 1704,
+          "y": 264,
+          "listId": "list_1774112227009"
+        },
+        "n_1774117299595": {
+          "id": "n_1774117299595",
+          "type": "addtask",
+          "text": "What do you want to eat on Sunday?",
+          "next": "n_1774117321932",
+          "x": 1992,
+          "y": 144,
+          "listId": "list_1774116923634",
+          "maxTasks": 1
+        },
+        "n_1774117321932": {
+          "id": "n_1774117321932",
+          "type": "addtask",
+          "text": "Check your fridge. Is there anything you need to buy?",
+          "next": "end_1774116898629",
+          "x": 1992,
+          "y": 264,
+          "listId": "list_1774115760526"
+        }
+      },
+      "categoryId": "fcat_1774202197339"
     },
     {
       "id": "chart_1774114072987",
@@ -1218,161 +1421,7 @@
         }
       },
       "groups": [],
-      "categoryId": "fcat_1774116790698"
-    },
-    {
-      "id": "chart_1774116898629",
-      "name": "Meal Planning",
-      "nodes": {
-        "start_1774116898629": {
-          "id": "start_1774116898629",
-          "type": "start",
-          "text": "Start",
-          "next": "n_1774116900536",
-          "x": -24,
-          "y": 216
-        },
-        "end_1774116898629": {
-          "id": "end_1774116898629",
-          "type": "end",
-          "text": "End",
-          "x": 2280,
-          "y": 192
-        },
-        "n_1774116900536": {
-          "id": "n_1774116900536",
-          "type": "addtask",
-          "text": "What would you like to eat on Monday?",
-          "next": "n_1774117011119",
-          "x": 264,
-          "y": 144,
-          "listId": "list_1774116923634",
-          "maxTasks": 1,
-          "minTasks": 1
-        },
-        "n_1774117011119": {
-          "id": "n_1774117011119",
-          "type": "addtask",
-          "text": "Check your fridge. What ingredients do you need that you don't have?",
-          "next": "n_1774117055938",
-          "x": 264,
-          "y": 264,
-          "listId": "list_1774115760526"
-        },
-        "n_1774117055938": {
-          "id": "n_1774117055938",
-          "type": "addtask",
-          "text": "What do you want to eat on tuesday?",
-          "next": "n_1774117074411",
-          "x": 552,
-          "y": 144,
-          "listId": "list_1774116923634",
-          "maxTasks": 1
-        },
-        "n_1774117074411": {
-          "id": "n_1774117074411",
-          "type": "addtask",
-          "text": "Check the fridge. Is there anything you need to buy?",
-          "next": "n_1774117109125",
-          "x": 552,
-          "y": 264,
-          "listId": "list_1774115760526"
-        },
-        "n_1774117109125": {
-          "id": "n_1774117109125",
-          "type": "addtask",
-          "text": "What do you want to eat on wednesday?",
-          "next": "n_1774117124309",
-          "x": 840,
-          "y": 144,
-          "maxTasks": 1,
-          "listId": "list_1774116923634"
-        },
-        "n_1774117124309": {
-          "id": "n_1774117124309",
-          "type": "addtask",
-          "text": "Check your fridge. Is there anything you need to buy?",
-          "next": "n_1774117163973",
-          "x": 840,
-          "y": 264,
-          "listId": "list_1774115760526"
-        },
-        "n_1774117163973": {
-          "id": "n_1774117163973",
-          "type": "addtask",
-          "text": "What do you want to eat on thursday?",
-          "next": "n_1774117189219",
-          "x": 1128,
-          "y": 144,
-          "maxTasks": 1
-        },
-        "n_1774117189219": {
-          "id": "n_1774117189219",
-          "type": "addtask",
-          "text": "Check your fridge. Do you need to buy something?",
-          "next": "n_1774117213153",
-          "x": 1128,
-          "y": 264,
-          "listId": "list_1774115760526"
-        },
-        "n_1774117213153": {
-          "id": "n_1774117213153",
-          "type": "addtask",
-          "text": "What do you want to eat on friday?",
-          "next": "n_1774117230483",
-          "x": 1416,
-          "y": 144,
-          "listId": "list_1774116923634",
-          "maxTasks": 1
-        },
-        "n_1774117230483": {
-          "id": "n_1774117230483",
-          "type": "addtask",
-          "text": "Check your fridge. Do you need to buy something?",
-          "next": "n_1774117248267",
-          "x": 1416,
-          "y": 264,
-          "listId": "list_1774115760526"
-        },
-        "n_1774117248267": {
-          "id": "n_1774117248267",
-          "type": "addtask",
-          "text": "What do you want to eat on Saturday?",
-          "next": "n_1774117268403",
-          "x": 1704,
-          "y": 144,
-          "listId": "list_1774116923634",
-          "maxTasks": 1
-        },
-        "n_1774117268403": {
-          "id": "n_1774117268403",
-          "type": "addtask",
-          "text": "Check your fridge. Do you need to buy something?",
-          "next": "n_1774117299595",
-          "x": 1704,
-          "y": 264,
-          "listId": "list_1774112227009"
-        },
-        "n_1774117299595": {
-          "id": "n_1774117299595",
-          "type": "addtask",
-          "text": "What do you want to eat on Sunday?",
-          "next": "n_1774117321932",
-          "x": 1992,
-          "y": 144,
-          "listId": "list_1774116923634",
-          "maxTasks": 1
-        },
-        "n_1774117321932": {
-          "id": "n_1774117321932",
-          "type": "addtask",
-          "text": "Check your fridge. Is there anything you need to buy?",
-          "next": "end_1774116898629",
-          "x": 1992,
-          "y": 264,
-          "listId": "list_1774115760526"
-        }
-      }
+      "categoryId": "fcat_1774202197339"
     },
     {
       "id": "chart_1774119326698",
@@ -1397,17 +1446,13 @@
     }
   ],
   "prog": {
-    "chartId": "chart_1774088952960",
-    "cur": "n_1774095590203",
+    "chartId": "chart_1774089091794",
+    "cur": "n_1774196764773",
     "hist": [
       "start",
-      "n_1774096432123",
-      "n_1774096459350",
-      "n_1774192983541",
-      "n_1774089390376",
-      "n_1774091904086",
-      "n_1774091955734",
-      "n_1774091904086_d1774128477685"
+      "n_1774090997906",
+      "n_1774094259699",
+      "n_1774196730294"
     ],
     "done": false,
     "callStack": [
@@ -1420,6 +1465,37 @@
           "n_1774112279692",
           "n_1774191196387"
         ]
+      },
+      {
+        "chartId": "chart_1774088952960",
+        "cur": "n_1774089104265",
+        "hist": [
+          "start",
+          "n_1774096432123",
+          "n_1774096459350",
+          "n_1774193820010",
+          "n_1774193835624",
+          "n_1774194174478",
+          "n_1774194216130",
+          "n_1774192983541",
+          "n_1774194112631",
+          "n_1774089390376",
+          "n_1774091904086",
+          "n_1774091955734",
+          "n_1774091904086_d1774128477685",
+          "n_1774096432123_d1774194305305",
+          "n_1774194252796",
+          "n_1774095590203",
+          "n_1774089104265",
+          "n_1774089390376",
+          "n_1774091904086",
+          "n_1774091955734",
+          "n_1774091904086_d1774128477685",
+          "n_1774096432123_d1774194305305",
+          "n_1774194252796",
+          "n_1774095590203"
+        ],
+        "returnNext": "n_1774128875075"
       }
     ]
   },
@@ -1598,6 +1674,30 @@
         {
           "id": "t_1774194880119",
           "text": "add the option to have diverging paths for the mood node",
+          "done": false,
+          "subtasks": []
+        },
+        {
+          "id": "t_1774195881104",
+          "text": "get rid of progress bar in action view on pc",
+          "done": false,
+          "subtasks": []
+        },
+        {
+          "id": "t_1774196611504",
+          "text": "make it so the reroll button is removed if there is only one task to pick from",
+          "done": false,
+          "subtasks": []
+        },
+        {
+          "id": "t_1774200489285",
+          "text": "ruf Oma an",
+          "done": false,
+          "subtasks": []
+        },
+        {
+          "id": "t_1774200501272",
+          "text": "ruf Oma Tätendorf an",
           "done": false,
           "subtasks": []
         }
@@ -2216,7 +2316,12 @@
   },
   "dailyCount": {},
   "taskCats": [],
-  "fcCats": [],
+  "fcCats": [
+    {
+      "id": "fcat_1774202197339",
+      "name": "Daily Routines"
+    }
+  ],
   "heldNodes": [],
   "moodLog": []
 }
