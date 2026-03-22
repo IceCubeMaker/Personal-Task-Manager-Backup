@@ -34,8 +34,8 @@
           "type": "flowchart",
           "text": "Make Bed!",
           "next": "n_1774112279692",
-          "x": -432,
-          "y": 192,
+          "x": -399.42113824659145,
+          "y": 190.32928914085085,
           "chartRef": "chart_1774111620251"
         },
         "n_1774111551883": {
@@ -2667,6 +2667,95 @@
           ]
         },
         {
+          "id": "t_1774217180696",
+          "text": "Celeste",
+          "done": false,
+          "subtasks": [
+            {
+              "id": "steam_CH7",
+              "text": "Celeste",
+              "done": false,
+              "steamApiname": "CH7",
+              "ra_desc": "Climb Celeste Mountain",
+              "subtasks": [],
+              "tracked": true
+            },
+            {
+              "id": "steam_CH1",
+              "text": "Forsaken",
+              "done": true,
+              "steamApiname": "CH1",
+              "ra_desc": "",
+              "subtasks": [],
+              "tracked": true
+            },
+            {
+              "id": "steam_CH2",
+              "text": "Archaeology",
+              "done": true,
+              "steamApiname": "CH2",
+              "ra_desc": "",
+              "subtasks": [],
+              "tracked": true
+            },
+            {
+              "id": "steam_CH3",
+              "text": "Checking Out",
+              "done": true,
+              "steamApiname": "CH3",
+              "ra_desc": "",
+              "subtasks": [],
+              "tracked": true
+            },
+            {
+              "id": "steam_CH4",
+              "text": "Breathe",
+              "done": true,
+              "steamApiname": "CH4",
+              "ra_desc": "",
+              "subtasks": [],
+              "tracked": true
+            },
+            {
+              "id": "steam_CH5",
+              "text": "In the Mirror",
+              "done": false,
+              "steamApiname": "CH5",
+              "ra_desc": "",
+              "subtasks": [],
+              "tracked": true
+            },
+            {
+              "id": "steam_CH6",
+              "text": "Reflection",
+              "done": false,
+              "steamApiname": "CH6",
+              "ra_desc": "",
+              "subtasks": [],
+              "tracked": true
+            }
+          ],
+          "dueDate": null,
+          "tracked": true,
+          "connections": [
+            {
+              "type": "steam",
+              "appId": "504230",
+              "gameTitle": "Celeste",
+              "selectedApinames": [
+                "CH1",
+                "CH2",
+                "CH3",
+                "CH4",
+                "CH5",
+                "CH6",
+                "CH7"
+              ],
+              "syncedAt": "2026-03-22T22:07:35.924Z"
+            }
+          ]
+        },
+        {
           "id": "t_1774112898090",
           "text": "Expedition 33",
           "done": false,
@@ -2837,30 +2926,6 @@
           ]
         },
         {
-          "id": "t_1774112777251",
-          "text": "Hades II",
-          "done": false,
-          "subtasks": [],
-          "dueDate": null,
-          "deps": []
-        },
-        {
-          "id": "t_1774112886076",
-          "text": "Disco Elysium",
-          "done": false,
-          "subtasks": [],
-          "dueDate": null,
-          "deps": []
-        },
-        {
-          "id": "t_1774112975960",
-          "text": "Red Dead Redemption",
-          "done": false,
-          "subtasks": [],
-          "dueDate": null,
-          "deps": []
-        },
-        {
           "id": "t_1774207253156",
           "text": "Super Metroid",
           "done": false,
@@ -2970,18 +3035,158 @@
           ]
         },
         {
-          "id": "t_1774146186797",
-          "text": "Mario and Luigi Dream Team Bros",
+          "id": "t_1774210436803",
+          "text": "Pokemon Yellow Version",
           "done": false,
-          "subtasks": [],
-          "dueDate": null
-        },
-        {
-          "id": "t_1774146195888",
-          "text": "Mario and Luigi Partners in Time",
-          "done": false,
-          "subtasks": [],
-          "dueDate": null
+          "subtasks": [
+            {
+              "id": "ra_4428",
+              "text": "Showdown in Pewter City",
+              "done": false,
+              "raAchievementId": 4428,
+              "raDescription": "Earn the Boulder Badge in Pewter City.",
+              "subtasks": [],
+              "tracked": true
+            },
+            {
+              "id": "ra_4429",
+              "text": "The Water Flower of Cerulean City",
+              "done": false,
+              "raAchievementId": 4429,
+              "raDescription": "Earn the Cascade Badge in Cerulean City.",
+              "subtasks": [],
+              "tracked": true
+            },
+            {
+              "id": "ra_4430",
+              "text": "Electric Shock Showdown",
+              "done": false,
+              "raAchievementId": 4430,
+              "raDescription": "Earn the Thunder Badge in Vermillion City.",
+              "subtasks": [],
+              "tracked": true
+            },
+            {
+              "id": "ra_4431",
+              "text": "Pokemon Scent-sation",
+              "done": false,
+              "raAchievementId": 4431,
+              "raDescription": "Earn the Rainbow Badge in Celadon City.",
+              "subtasks": [],
+              "tracked": true
+            },
+            {
+              "id": "ra_4432",
+              "text": "The Ninja Poke-Showdown",
+              "done": false,
+              "raAchievementId": 4432,
+              "raDescription": "Earn the Soul Badge in Fuchsia City.",
+              "subtasks": [],
+              "tracked": true
+            },
+            {
+              "id": "ra_4433",
+              "text": "Psychic Showdown",
+              "done": false,
+              "raAchievementId": 4433,
+              "raDescription": "Earn the Marsh Badge in Saffron City.",
+              "subtasks": [],
+              "tracked": true
+            },
+            {
+              "id": "ra_4434",
+              "text": "Volcanic Panic",
+              "done": false,
+              "raAchievementId": 4434,
+              "raDescription": "Earn the Volcano Badge in Cinnabar Island.",
+              "subtasks": [],
+              "tracked": true
+            },
+            {
+              "id": "ra_4435",
+              "text": "Team Rocket's Blasting Off Again!",
+              "done": false,
+              "raAchievementId": 4435,
+              "raDescription": "Earn the Earth Badge in Viridian City.",
+              "subtasks": [],
+              "tracked": true
+            },
+            {
+              "id": "ra_4437",
+              "text": "Pokemon Master!",
+              "done": false,
+              "raAchievementId": 4437,
+              "raDescription": "Defeat the Elite Four and the Champion of the Pokemon League.",
+              "subtasks": [],
+              "tracked": true
+            },
+            {
+              "id": "ra_81655",
+              "text": "Pokemon - I Choose You!",
+              "done": true,
+              "raAchievementId": 81655,
+              "raDescription": "Obtain a Pokedex from Prof. Oak.",
+              "subtasks": [],
+              "tracked": true
+            },
+            {
+              "id": "ra_81659",
+              "text": "Gatekeeper of the Nugget Bridge",
+              "done": false,
+              "raAchievementId": 81659,
+              "raDescription": "Defeat your Rival on Cerulean City's Nugget Bridge.",
+              "subtasks": [],
+              "tracked": true
+            },
+            {
+              "id": "ra_81665",
+              "text": "Battle Aboard the St. Anne",
+              "done": false,
+              "raAchievementId": 81665,
+              "raDescription": "Defeat your Rival aboard the S.S. Anne in Vermilion City.",
+              "subtasks": [],
+              "tracked": true
+            },
+            {
+              "id": "ra_81667",
+              "text": "Not the most appropriate arena...",
+              "done": false,
+              "raAchievementId": 81667,
+              "raDescription": "Defeat your Rival inside the Pokemon Tower in Lavender Town.",
+              "subtasks": [],
+              "tracked": true
+            },
+            {
+              "id": "ra_81672",
+              "text": "Do we REALLY have to do this now?",
+              "done": false,
+              "raAchievementId": 81672,
+              "raDescription": "Defeat your Rival inside the Silph Co. in Saffron City.",
+              "subtasks": [],
+              "tracked": true
+            },
+            {
+              "id": "ra_81679",
+              "text": "Gatekeeper of Victory Road",
+              "done": false,
+              "raAchievementId": 81679,
+              "raDescription": "Defeat your Rival on Route 22 while traveling to the Pokemon League.",
+              "subtasks": [],
+              "tracked": true
+            }
+          ],
+          "dueDate": null,
+          "tracked": true,
+          "connections": [
+            {
+              "type": "retroachievements",
+              "gameId": 723,
+              "gameTitle": "Pokémon Yellow Version: Special Pikachu Edition",
+              "gameImage": "https://media.retroachievements.org/Badge//Images/105480.png",
+              "filter": "story",
+              "syncedAt": "2026-03-22T20:14:02.760Z"
+            }
+          ]
         },
         {
           "id": "t_1774210365750",
@@ -3183,142 +3388,169 @@
           ]
         },
         {
-          "id": "t_1774210436803",
-          "text": "Pokemon Yellow Version",
+          "id": "t_1774218517178",
+          "text": "Baba is You (ALL Achievements)",
           "done": false,
           "subtasks": [
             {
-              "id": "ra_4428",
-              "text": "Showdown in Pewter City",
-              "done": false,
-              "raAchievementId": 4428,
-              "raDescription": "Earn the Boulder Badge in Pewter City.",
-              "subtasks": [],
-              "tracked": true
-            },
-            {
-              "id": "ra_4429",
-              "text": "The Water Flower of Cerulean City",
-              "done": false,
-              "raAchievementId": 4429,
-              "raDescription": "Earn the Cascade Badge in Cerulean City.",
-              "subtasks": [],
-              "tracked": true
-            },
-            {
-              "id": "ra_4430",
-              "text": "Electric Shock Showdown",
-              "done": false,
-              "raAchievementId": 4430,
-              "raDescription": "Earn the Thunder Badge in Vermillion City.",
-              "subtasks": [],
-              "tracked": true
-            },
-            {
-              "id": "ra_4431",
-              "text": "Pokemon Scent-sation",
-              "done": false,
-              "raAchievementId": 4431,
-              "raDescription": "Earn the Rainbow Badge in Celadon City.",
-              "subtasks": [],
-              "tracked": true
-            },
-            {
-              "id": "ra_4432",
-              "text": "The Ninja Poke-Showdown",
-              "done": false,
-              "raAchievementId": 4432,
-              "raDescription": "Earn the Soul Badge in Fuchsia City.",
-              "subtasks": [],
-              "tracked": true
-            },
-            {
-              "id": "ra_4433",
-              "text": "Psychic Showdown",
-              "done": false,
-              "raAchievementId": 4433,
-              "raDescription": "Earn the Marsh Badge in Saffron City.",
-              "subtasks": [],
-              "tracked": true
-            },
-            {
-              "id": "ra_4434",
-              "text": "Volcanic Panic",
-              "done": false,
-              "raAchievementId": 4434,
-              "raDescription": "Earn the Volcano Badge in Cinnabar Island.",
-              "subtasks": [],
-              "tracked": true
-            },
-            {
-              "id": "ra_4435",
-              "text": "Team Rocket's Blasting Off Again!",
-              "done": false,
-              "raAchievementId": 4435,
-              "raDescription": "Earn the Earth Badge in Viridian City.",
-              "subtasks": [],
-              "tracked": true
-            },
-            {
-              "id": "ra_4437",
-              "text": "Pokemon Master!",
-              "done": false,
-              "raAchievementId": 4437,
-              "raDescription": "Defeat the Elite Four and the Champion of the Pokemon League.",
-              "subtasks": [],
-              "tracked": true
-            },
-            {
-              "id": "ra_81655",
-              "text": "Pokemon - I Choose You!",
+              "id": "steam_BABA_LAKE",
+              "text": "Water Is Sink",
               "done": true,
-              "raAchievementId": 81655,
-              "raDescription": "Obtain a Pokedex from Prof. Oak.",
+              "steamApiname": "BABA_LAKE",
+              "ra_desc": "Complete the lake.",
               "subtasks": [],
               "tracked": true
             },
             {
-              "id": "ra_81659",
-              "text": "Gatekeeper of the Nugget Bridge",
+              "id": "steam_BABA_RUINS",
+              "text": "Box Has Key",
               "done": false,
-              "raAchievementId": 81659,
-              "raDescription": "Defeat your Rival on Cerulean City's Nugget Bridge.",
+              "steamApiname": "BABA_RUINS",
+              "ra_desc": "Complete the ruins.",
               "subtasks": [],
               "tracked": true
             },
             {
-              "id": "ra_81665",
-              "text": "Battle Aboard the St. Anne",
+              "id": "steam_BABA_FOREST",
+              "text": "Tree Is Shift",
               "done": false,
-              "raAchievementId": 81665,
-              "raDescription": "Defeat your Rival aboard the S.S. Anne in Vermilion City.",
+              "steamApiname": "BABA_FOREST",
+              "ra_desc": "Complete the forest.",
               "subtasks": [],
               "tracked": true
             },
             {
-              "id": "ra_81667",
-              "text": "Not the most appropriate arena...",
+              "id": "steam_BABA_CAVE",
+              "text": "Lava Is Hot",
               "done": false,
-              "raAchievementId": 81667,
-              "raDescription": "Defeat your Rival inside the Pokemon Tower in Lavender Town.",
+              "steamApiname": "BABA_CAVE",
+              "ra_desc": "Complete the cavern.",
               "subtasks": [],
               "tracked": true
             },
             {
-              "id": "ra_81672",
-              "text": "Do we REALLY have to do this now?",
+              "id": "steam_BABA_FALL",
+              "text": "Leaf Is Move",
               "done": false,
-              "raAchievementId": 81672,
-              "raDescription": "Defeat your Rival inside the Silph Co. in Saffron City.",
+              "steamApiname": "BABA_FALL",
+              "ra_desc": "Complete the forest of fall.",
               "subtasks": [],
               "tracked": true
             },
             {
-              "id": "ra_81679",
-              "text": "Gatekeeper of Victory Road",
+              "id": "steam_BABA_ISLE",
+              "text": "Cog Is Push",
               "done": false,
-              "raAchievementId": 81679,
-              "raDescription": "Defeat your Rival on Route 22 while traveling to the Pokemon League.",
+              "steamApiname": "BABA_ISLE",
+              "ra_desc": "Complete the solitary isle.",
+              "subtasks": [],
+              "tracked": true
+            },
+            {
+              "id": "steam_BABA_MOUNTAIN",
+              "text": "Bird Is Float",
+              "done": false,
+              "steamApiname": "BABA_MOUNTAIN",
+              "ra_desc": "Complete the mountain.",
+              "subtasks": [],
+              "tracked": true
+            },
+            {
+              "id": "steam_BABA_ABSTRACT",
+              "text": "Baba Is More",
+              "done": false,
+              "steamApiname": "BABA_ABSTRACT",
+              "ra_desc": "Complete the abstract area.",
+              "subtasks": [],
+              "tracked": true
+            },
+            {
+              "id": "steam_BABA_SPACE",
+              "text": "Rocket Is Dust",
+              "done": false,
+              "steamApiname": "BABA_SPACE",
+              "ra_desc": "Complete the space area.",
+              "subtasks": [],
+              "tracked": true
+            },
+            {
+              "id": "steam_BABA_GARDEN",
+              "text": "Hedge Is Stop",
+              "done": false,
+              "steamApiname": "BABA_GARDEN",
+              "ra_desc": "Complete the garden.",
+              "subtasks": [],
+              "tracked": true
+            },
+            {
+              "id": "steam_BABA_LET",
+              "text": "B A B A",
+              "done": false,
+              "steamApiname": "BABA_LET",
+              "ra_desc": "",
+              "subtasks": [],
+              "tracked": true
+            },
+            {
+              "id": "steam_BABA_META",
+              "text": "Baba Is Baba",
+              "done": false,
+              "steamApiname": "BABA_META",
+              "ra_desc": "",
+              "subtasks": [],
+              "tracked": true
+            },
+            {
+              "id": "steam_BABA_SECRET",
+              "text": "Not Baba",
+              "done": false,
+              "steamApiname": "BABA_SECRET",
+              "ra_desc": "",
+              "subtasks": [],
+              "tracked": true
+            },
+            {
+              "id": "steam_BABA_BONUS",
+              "text": "Orb Is Bonus",
+              "done": false,
+              "steamApiname": "BABA_BONUS",
+              "ra_desc": "",
+              "subtasks": [],
+              "tracked": true
+            },
+            {
+              "id": "steam_BABA_MAP",
+              "text": "Baba Is All",
+              "done": false,
+              "steamApiname": "BABA_MAP",
+              "ra_desc": "Complete the world map.",
+              "subtasks": [],
+              "tracked": true
+            },
+            {
+              "id": "steam_BABA_END",
+              "text": "Baba Is End",
+              "done": false,
+              "steamApiname": "BABA_END",
+              "ra_desc": "Beat the game.",
+              "subtasks": [],
+              "tracked": true
+            },
+            {
+              "id": "steam_BABA_DONE",
+              "text": "The End",
+              "done": false,
+              "steamApiname": "BABA_DONE",
+              "ra_desc": "",
+              "subtasks": [],
+              "tracked": true
+            },
+            {
+              "id": "steam_BABA_DEPTHS",
+              "text": "What",
+              "done": false,
+              "steamApiname": "BABA_DEPTHS",
+              "ra_desc": "",
               "subtasks": [],
               "tracked": true
             }
@@ -3327,14 +3559,70 @@
           "tracked": true,
           "connections": [
             {
-              "type": "retroachievements",
-              "gameId": 723,
-              "gameTitle": "Pokémon Yellow Version: Special Pikachu Edition",
-              "gameImage": "https://media.retroachievements.org/Badge//Images/105480.png",
-              "filter": "story",
-              "syncedAt": "2026-03-22T20:14:02.760Z"
+              "type": "steam",
+              "appId": "736260",
+              "gameTitle": "Baba Is You",
+              "selectedApinames": [
+                "BABA_LAKE",
+                "BABA_RUINS",
+                "BABA_FOREST",
+                "BABA_CAVE",
+                "BABA_FALL",
+                "BABA_ISLE",
+                "BABA_MOUNTAIN",
+                "BABA_ABSTRACT",
+                "BABA_SPACE",
+                "BABA_GARDEN",
+                "BABA_LET",
+                "BABA_META",
+                "BABA_SECRET",
+                "BABA_BONUS",
+                "BABA_MAP",
+                "BABA_END",
+                "BABA_DONE",
+                "BABA_DEPTHS"
+              ],
+              "syncedAt": "2026-03-22T22:28:47.484Z"
             }
           ]
+        },
+        {
+          "id": "t_1774112777251",
+          "text": "Hades II",
+          "done": false,
+          "subtasks": [],
+          "dueDate": null,
+          "deps": []
+        },
+        {
+          "id": "t_1774112886076",
+          "text": "Disco Elysium",
+          "done": false,
+          "subtasks": [],
+          "dueDate": null,
+          "deps": []
+        },
+        {
+          "id": "t_1774112975960",
+          "text": "Red Dead Redemption",
+          "done": false,
+          "subtasks": [],
+          "dueDate": null,
+          "deps": []
+        },
+        {
+          "id": "t_1774146186797",
+          "text": "Mario and Luigi Dream Team Bros",
+          "done": false,
+          "subtasks": [],
+          "dueDate": null
+        },
+        {
+          "id": "t_1774146195888",
+          "text": "Mario and Luigi Partners in Time",
+          "done": false,
+          "subtasks": [],
+          "dueDate": null
         }
       ],
       "categoryId": "cat_1774110746921",
@@ -3734,5 +4022,7 @@
   "raKey": "OvI0vNKUlmYtxHBkHJ6c6qoo6WZFiFHQ",
   "steamId": "76561199199995485",
   "steamKey": "DA5BD50A5D69B3708C567E6FEC84705C",
-  "timer": null
+  "timer": null,
+  "srDecks": [],
+  "srCards": []
 }
