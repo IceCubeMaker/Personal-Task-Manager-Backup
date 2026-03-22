@@ -17,16 +17,16 @@
           "id": "end",
           "type": "end",
           "text": "End",
-          "x": -408,
-          "y": 1344
+          "x": -984,
+          "y": 1440
         },
         "n_1774089330906": {
           "id": "n_1774089330906",
           "type": "flowchart",
           "text": "Pomodoro Time!",
           "next": "n_1774128875075",
-          "x": -552,
-          "y": 456,
+          "x": -1128,
+          "y": 360,
           "chartRef": "chart_1774088952960"
         },
         "n_1774111543197": {
@@ -57,7 +57,7 @@
           "text": "Is it between 12:00 and 18:00?",
           "x": -96,
           "y": 360,
-          "yes": "n_1774128663055",
+          "yes": "n_1774191196387",
           "no": "n_1774129079933",
           "autoType": "time",
           "timeA": "12:00",
@@ -69,8 +69,8 @@
           "type": "action",
           "text": "Turn off the PC",
           "next": "end",
-          "x": -408,
-          "y": 1224,
+          "x": -984,
+          "y": 1320,
           "trackingId": "n_1774113759035",
           "trackDaily": true
         },
@@ -79,15 +79,15 @@
           "type": "flowchart",
           "text": "Evening Routine",
           "next": "n_1774144665712",
-          "x": -408,
-          "y": 984,
+          "x": -984,
+          "y": 1080,
           "chartRef": "chart_1774114072987"
         },
         "n_1774128663055": {
           "id": "n_1774128663055",
           "type": "auto",
           "text": "Is it the weekend?",
-          "x": -432,
+          "x": -792,
           "y": 360,
           "yes": "n_1774128695587",
           "no": "n_1774089330906",
@@ -101,8 +101,8 @@
           "id": "n_1774128695587",
           "type": "flowchart",
           "text": "Gaming Day!",
-          "x": -312,
-          "y": 456,
+          "x": -792,
+          "y": 552,
           "next": "n_1774128875075"
         },
         "n_1774128856796": {
@@ -110,8 +110,8 @@
           "type": "tasklist",
           "text": "Improve Task Manager",
           "next": "n_1774131544668",
-          "x": -672,
-          "y": 600,
+          "x": -1248,
+          "y": 696,
           "listId": "list_1774108234821",
           "duration": 2700
         },
@@ -119,8 +119,8 @@
           "id": "n_1774128875075",
           "type": "auto",
           "text": "Is it sunday?",
-          "x": -408,
-          "y": 600,
+          "x": -984,
+          "y": 696,
           "yes": "n_1774128856796",
           "no": "n_1774129016518"
         },
@@ -129,16 +129,16 @@
           "type": "tasklist",
           "text": "Work on Horadeus",
           "next": "n_1774131544668",
-          "x": -672,
-          "y": 720,
+          "x": -1248,
+          "y": 816,
           "listId": "list_1774121757088"
         },
         "n_1774129016518": {
           "id": "n_1774129016518",
           "type": "auto",
           "text": "Is it saturday?",
-          "x": -408,
-          "y": 720,
+          "x": -984,
+          "y": 816,
           "yes": "n_1774129002458",
           "no": "n_1774131544668",
           "autoType": "day",
@@ -163,18 +163,27 @@
           "type": "tasklist",
           "text": "Do a random tasks from the inbox",
           "next": "n_1774114150483",
-          "x": -408,
-          "y": 864,
+          "x": -984,
+          "y": 960,
           "duration": null
         },
         "n_1774144665712": {
           "id": "n_1774144665712",
           "type": "condition",
           "text": "Is the PC on?",
-          "x": -408,
-          "y": 1104,
+          "x": -984,
+          "y": 1200,
           "yes": "n_1774113759035",
           "no": "end"
+        },
+        "n_1774191196387": {
+          "id": "n_1774191196387",
+          "type": "condition",
+          "text": "Do you have an exam next week?",
+          "x": -408,
+          "y": 360,
+          "yes": "n_1774089330906",
+          "no": "n_1774128663055"
         }
       },
       "groups": []
