@@ -2121,75 +2121,6 @@
           "tracked": true
         },
         {
-          "id": "t_1774216050348",
-          "text": "Ace Attorney Chronicles",
-          "done": false,
-          "subtasks": [
-            {
-              "id": "steam_ITEM_007",
-              "text": "Susato's Success",
-              "done": true,
-              "steamApiname": "ITEM_007",
-              "ra_desc": "For completion of Episode 1 of The Great Ace Attorney 2: Resolve from its opening chapter",
-              "subtasks": [],
-              "tracked": true
-            },
-            {
-              "id": "steam_ITEM_008",
-              "text": "The Key of Knowledge",
-              "done": false,
-              "steamApiname": "ITEM_008",
-              "ra_desc": "For completion of Episode 2 of The Great Ace Attorney 2: Resolve from its opening chapter",
-              "subtasks": [],
-              "tracked": true
-            },
-            {
-              "id": "steam_ITEM_009",
-              "text": "The Demasking",
-              "done": false,
-              "steamApiname": "ITEM_009",
-              "ra_desc": "For completion of Episode 3 of The Great Ace Attorney 2: Resolve from its opening chapter",
-              "subtasks": [],
-              "tracked": true
-            },
-            {
-              "id": "steam_ITEM_010",
-              "text": "The Legendary Pair",
-              "done": false,
-              "steamApiname": "ITEM_010",
-              "ra_desc": "For completion of Episode 4 of The Great Ace Attorney 2: Resolve from its opening chapter",
-              "subtasks": [],
-              "tracked": true
-            },
-            {
-              "id": "steam_ITEM_011",
-              "text": "The Risen Resolve",
-              "done": false,
-              "steamApiname": "ITEM_011",
-              "ra_desc": "For completion of the Final Chapter of The Great Ace Attorney 2: Resolve from its opening chapter",
-              "subtasks": [],
-              "tracked": true
-            }
-          ],
-          "dueDate": null,
-          "tracked": true,
-          "connections": [
-            {
-              "type": "steam",
-              "appId": "1158850",
-              "gameTitle": "The Great Ace Attorney Chronicles",
-              "selectedApinames": [
-                "ITEM_007",
-                "ITEM_008",
-                "ITEM_009",
-                "ITEM_010",
-                "ITEM_011"
-              ],
-              "syncedAt": "2026-03-22T21:49:13.029Z"
-            }
-          ]
-        },
-        {
           "id": "t_1774208412363",
           "text": "Super Mariomon",
           "done": false,
@@ -2633,6 +2564,105 @@
                 "ending"
               ],
               "syncedAt": "2026-03-22T21:26:34.923Z"
+            }
+          ]
+        },
+        {
+          "id": "t_1774216918479",
+          "text": "Persona 4 Golden",
+          "done": false,
+          "subtasks": [
+            {
+              "id": "steam_ACHIEVEMENT_001",
+              "text": "A Prince Appears",
+              "done": true,
+              "steamApiname": "ACHIEVEMENT_001",
+              "ra_desc": "",
+              "subtasks": [],
+              "tracked": true
+            },
+            {
+              "id": "steam_ACHIEVEMENT_002",
+              "text": "A True Man's Stand",
+              "done": false,
+              "steamApiname": "ACHIEVEMENT_002",
+              "ra_desc": "",
+              "subtasks": [],
+              "tracked": true
+            },
+            {
+              "id": "steam_ACHIEVEMENT_003",
+              "text": "The Lounge Is Closed",
+              "done": false,
+              "steamApiname": "ACHIEVEMENT_003",
+              "ra_desc": "",
+              "subtasks": [],
+              "tracked": true
+            },
+            {
+              "id": "steam_ACHIEVEMENT_004",
+              "text": "Game Over",
+              "done": false,
+              "steamApiname": "ACHIEVEMENT_004",
+              "ra_desc": "",
+              "subtasks": [],
+              "tracked": true
+            },
+            {
+              "id": "steam_ACHIEVEMENT_005",
+              "text": "Boarded-Up Lab",
+              "done": false,
+              "steamApiname": "ACHIEVEMENT_005",
+              "ra_desc": "",
+              "subtasks": [],
+              "tracked": true
+            },
+            {
+              "id": "steam_ACHIEVEMENT_006",
+              "text": "The Return of the Angels",
+              "done": false,
+              "steamApiname": "ACHIEVEMENT_006",
+              "ra_desc": "",
+              "subtasks": [],
+              "tracked": true
+            },
+            {
+              "id": "steam_ACHIEVEMENT_007",
+              "text": "Breaking Through the Fog",
+              "done": false,
+              "steamApiname": "ACHIEVEMENT_007",
+              "ra_desc": "",
+              "subtasks": [],
+              "tracked": true
+            },
+            {
+              "id": "steam_ACHIEVEMENT_034",
+              "text": "The Other Self",
+              "done": true,
+              "steamApiname": "ACHIEVEMENT_034",
+              "ra_desc": "Obtain the Persona Izanagi.",
+              "subtasks": [],
+              "tracked": true
+            }
+          ],
+          "dueDate": null,
+          "tracked": true,
+          "connections": [
+            {
+              "type": "steam",
+              "appId": "1113000",
+              "gameTitle": "Persona 4 Golden",
+              "selectedApinames": [
+                "ACHIEVEMENT_034",
+                "ACHIEVEMENT_001",
+                "ACHIEVEMENT_002",
+                "ACHIEVEMENT_003",
+                "ACHIEVEMENT_004",
+                "ACHIEVEMENT_005",
+                "ACHIEVEMENT_006",
+                "ACHIEVEMENT_007"
+              ],
+              "syncedAt": "2026-03-22T22:05:07.886Z"
             }
           ]
         },
