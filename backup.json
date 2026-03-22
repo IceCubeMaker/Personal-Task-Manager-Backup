@@ -812,7 +812,8 @@
           "next": "n_1774112174885",
           "x": 0,
           "y": 552,
-          "trackingId": null
+          "trackingId": null,
+          "duration": 300
         },
         "n_1774112174885": {
           "id": "n_1774112174885",
@@ -1274,11 +1275,17 @@
   ],
   "prog": {
     "chartId": "chart_1774111620251",
-    "cur": "n_1774111632432",
+    "cur": "n_1774111948445",
     "hist": [
       "start",
       "n_1774111840673",
-      "n_1774111855803"
+      "n_1774111855803",
+      "n_1774111632432",
+      "n_1774112064860",
+      "n_1774112129113",
+      "n_1774112174885",
+      "n_1774112189693",
+      "n_1774111923026"
     ],
     "done": false,
     "callStack": []
@@ -1322,6 +1329,60 @@
         {
           "id": "t_1774130661625",
           "text": "add checking the mailbox as a routine",
+          "done": false,
+          "subtasks": []
+        },
+        {
+          "id": "t_1774177737902",
+          "text": "Add a stop button to the timers in this app",
+          "done": false,
+          "subtasks": []
+        },
+        {
+          "id": "t_1774178152188",
+          "text": "Add the ability to put links in tasks or nodes (for example if I plan to watch a video",
+          "done": false,
+          "subtasks": []
+        },
+        {
+          "id": "t_1774178317659",
+          "text": "Let task picket show multiple tasks",
+          "done": false,
+          "subtasks": []
+        },
+        {
+          "id": "t_1774178377584",
+          "text": "Make the import and export button next to eachother on mobile",
+          "done": false,
+          "subtasks": []
+        },
+        {
+          "id": "t_1774178388893",
+          "text": "Fix import and export button on mobile",
+          "done": false,
+          "subtasks": []
+        },
+        {
+          "id": "t_1774178407223",
+          "text": "Turn the more button into a + sign",
+          "done": false,
+          "subtasks": []
+        },
+        {
+          "id": "t_1774178438539",
+          "text": "add categories to the task lists view on mobile",
+          "done": false,
+          "subtasks": []
+        },
+        {
+          "id": "t_1774178665447",
+          "text": "Add exercises to morning routine",
+          "done": false,
+          "subtasks": []
+        },
+        {
+          "id": "t_1774178879961",
+          "text": "add the ability to \"temporarily\" skip one or more nodes and have them pop up again later",
           "done": false,
           "subtasks": []
         }
