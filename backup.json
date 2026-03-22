@@ -947,7 +947,7 @@
           "id": "n_1774121382984",
           "type": "tasklist",
           "text": "Read Books!",
-          "next": "n_1774129707480",
+          "next": null,
           "x": 48,
           "y": 792,
           "duration": 1800,
@@ -1273,19 +1273,12 @@
     }
   ],
   "prog": {
-    "chartId": "chart_1774114072987",
-    "cur": "n_1774121382984",
+    "chartId": "chart_1774111620251",
+    "cur": "n_1774111632432",
     "hist": [
       "start",
-      "n_1774128212363",
-      "n_1774128229851",
-      "n_1774116493831",
-      "n_1774115380614",
-      "n_1774127718833",
-      "n_1774129204899",
-      "n_1774114082121",
-      "n_1774114119052",
-      "n_1774121367914"
+      "n_1774111840673",
+      "n_1774111855803"
     ],
     "done": false,
     "callStack": []
@@ -1539,6 +1532,20 @@
           "subtasks": [],
           "dueDate": null,
           "deps": []
+        },
+        {
+          "id": "t_1774146186797",
+          "text": "Mario and Luigi Dream Team Bros",
+          "done": false,
+          "subtasks": [],
+          "dueDate": null
+        },
+        {
+          "id": "t_1774146195888",
+          "text": "Mario and Luigi Partners in Time",
+          "done": false,
+          "subtasks": [],
+          "dueDate": null
         }
       ],
       "categoryId": "cat_1774110746921",
@@ -1714,6 +1721,13 @@
         {
           "id": "t_1774131501830",
           "text": "fix the task creator node resetting bug",
+          "done": false,
+          "subtasks": [],
+          "dueDate": null
+        },
+        {
+          "id": "t_1774146158700",
+          "text": "Fix bug in node editor on phone, where it turns off keyboard with every button added",
           "done": false,
           "subtasks": [],
           "dueDate": null
