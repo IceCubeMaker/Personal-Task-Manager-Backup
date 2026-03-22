@@ -1275,7 +1275,7 @@
   ],
   "prog": {
     "chartId": "chart_1774111620251",
-    "cur": "n_1774111948445",
+    "cur": "n_1774118545172",
     "hist": [
       "start",
       "n_1774111840673",
@@ -1285,7 +1285,8 @@
       "n_1774112129113",
       "n_1774112174885",
       "n_1774112189693",
-      "n_1774111923026"
+      "n_1774111923026",
+      "n_1774111948445"
     ],
     "done": false,
     "callStack": []
@@ -1335,8 +1336,9 @@
         {
           "id": "t_1774177737902",
           "text": "Add a stop button to the timers in this app",
-          "done": false,
-          "subtasks": []
+          "done": true,
+          "subtasks": [],
+          "doneAt": "2026-03-22T13:13:42.097Z"
         },
         {
           "id": "t_1774178152188",
@@ -1353,14 +1355,16 @@
         {
           "id": "t_1774178377584",
           "text": "Make the import and export button next to eachother on mobile",
-          "done": false,
-          "subtasks": []
+          "done": true,
+          "subtasks": [],
+          "doneAt": "2026-03-22T13:13:50.359Z"
         },
         {
           "id": "t_1774178388893",
           "text": "Fix import and export button on mobile",
-          "done": false,
-          "subtasks": []
+          "done": true,
+          "subtasks": [],
+          "doneAt": "2026-03-22T13:14:22.550Z"
         },
         {
           "id": "t_1774178407223",
@@ -1979,10 +1983,21 @@
   ],
   "vars": {},
   "daily": {
-    "t_1774121416488": "2026-03-22T00:29:18.829Z"
+    "t_1774121416488": "2026-03-22T00:29:18.829Z",
+    "t_1774177737902": "2026-03-22T13:13:42.111Z",
+    "t_1774178377584": "2026-03-22T13:13:50.359Z",
+    "t_1774178388893": "2026-03-22T13:14:22.551Z"
   },
   "dailyCount": {},
   "taskCats": [],
   "fcCats": [],
-  "heldNodes": []
+  "heldNodes": [
+    {
+      "uid": "held_1774183096039",
+      "chartId": "chart_1774111620251",
+      "nodeId": "n_1774112189693",
+      "label": "Shower",
+      "icon": "▶"
+    }
+  ]
 }
