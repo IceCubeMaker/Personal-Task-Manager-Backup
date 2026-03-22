@@ -183,7 +183,9 @@
           "x": -408,
           "y": 360,
           "yes": "n_1774089330906",
-          "no": "n_1774128663055"
+          "no": "n_1774128663055",
+          "rememberAnswer": true,
+          "rememberKey": "n_1774191196387"
         }
       },
       "groups": []
@@ -214,7 +216,7 @@
           "text": "Pomodoro Break",
           "next": "n_1774089390376",
           "x": 1056,
-          "y": 264,
+          "y": 696,
           "chartRef": "chart_1774089091794"
         },
         "n_1774089390376": {
@@ -238,7 +240,7 @@
           "yes": "n_1774091955734",
           "no": "end",
           "rememberAnswer": true,
-          "rememberKey": "n_1774091904086"
+          "rememberKey": "n_1774096432123"
         },
         "n_1774091955734": {
           "id": "n_1774091955734",
@@ -247,7 +249,7 @@
           "x": 288,
           "y": 456,
           "yes": "end",
-          "no": null,
+          "no": "n_1774091904086_d1774128477685",
           "autoType": "time",
           "timeA": "18:00"
         },
@@ -257,7 +259,7 @@
           "text": "Pomodoro Studying",
           "next": "n_1774089104265",
           "x": 1056,
-          "y": 120,
+          "y": 552,
           "duration": 2700,
           "listId": "list_1774093880028"
         },
@@ -287,18 +289,18 @@
           "type": "condition",
           "text": "Is there an exam coming up?",
           "x": 888,
-          "y": 24,
+          "y": 456,
           "yes": "n_1774095590203",
           "no": "n_1774128492988",
           "rememberAnswer": true,
-          "rememberKey": "n_1774091904086"
+          "rememberKey": "n_1774096432123"
         },
         "n_1774128492988": {
           "id": "n_1774128492988",
           "type": "auto",
           "text": "Is it Friday?",
           "x": 1176,
-          "y": 24,
+          "y": 456,
           "yes": "n_1774128513867",
           "no": "n_1774095590203",
           "autoType": "day",
@@ -312,17 +314,9 @@
           "text": "Pomodoro ChillCube",
           "next": "n_1774089104265",
           "x": 1440,
-          "y": 24,
+          "y": 456,
           "duration": 2700,
           "listId": "list_1774121101665"
-        },
-        "n_1774128639829": {
-          "id": "n_1774128639829",
-          "type": "action",
-          "text": "New step",
-          "next": null,
-          "x": 1176,
-          "y": -96
         }
       }
     },
