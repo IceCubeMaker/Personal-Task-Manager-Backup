@@ -201,7 +201,7 @@
           "text": "Start",
           "next": "n_1774096432123",
           "x": 288,
-          "y": -264
+          "y": -408
         },
         "end": {
           "id": "end",
@@ -268,7 +268,7 @@
           "type": "condition",
           "text": "Are you at home?",
           "x": 288,
-          "y": -120,
+          "y": -264,
           "yes": "n_1774096459350",
           "no": "n_1774089390376",
           "rememberAnswer": false
@@ -277,9 +277,9 @@
           "id": "n_1774096459350",
           "type": "action",
           "text": "Clean a bit first",
-          "next": "n_1774089390376",
+          "next": "n_1774192983541",
           "x": -144,
-          "y": -120,
+          "y": -264,
           "trackingId": null,
           "duration": 600
         },
@@ -316,6 +316,15 @@
           "y": 456,
           "duration": 2700,
           "listId": "list_1774121101665"
+        },
+        "n_1774192983541": {
+          "id": "n_1774192983541",
+          "type": "action",
+          "text": "Put on Some Nice Music!",
+          "next": "n_1774089390376",
+          "x": -144,
+          "y": -72,
+          "trackingId": null
         }
       }
     },
