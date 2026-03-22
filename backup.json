@@ -184,8 +184,7 @@
           "y": 360,
           "yes": "n_1774089330906",
           "no": "n_1774128663055",
-          "rememberAnswer": true,
-          "rememberKey": "n_1774191196387"
+          "rememberAnswer": false
         }
       },
       "groups": []
@@ -240,7 +239,7 @@
           "yes": "n_1774091955734",
           "no": "end",
           "rememberAnswer": true,
-          "rememberKey": "n_1774096432123"
+          "rememberKey": "n_1774091904086"
         },
         "n_1774091955734": {
           "id": "n_1774091955734",
@@ -271,8 +270,7 @@
           "y": -120,
           "yes": "n_1774096459350",
           "no": "n_1774089390376",
-          "rememberAnswer": true,
-          "rememberKey": "n_1774096432123"
+          "rememberAnswer": false
         },
         "n_1774096459350": {
           "id": "n_1774096459350",
@@ -293,7 +291,7 @@
           "yes": "n_1774095590203",
           "no": "n_1774128492988",
           "rememberAnswer": true,
-          "rememberKey": "n_1774096432123"
+          "rememberKey": "n_1774091904086"
         },
         "n_1774128492988": {
           "id": "n_1774128492988",
