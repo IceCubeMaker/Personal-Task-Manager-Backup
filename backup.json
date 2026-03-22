@@ -54,13 +54,13 @@
         "n_1774112279692": {
           "id": "n_1774112279692",
           "type": "auto",
-          "text": "Is it between 12:00 and 16:00?",
+          "text": "Is it between 12:00 and 18:00?",
           "x": -96,
           "y": 360,
           "yes": "n_1774128663055",
           "no": "n_1774129079933",
           "autoType": "time",
-          "timeA": "12:16",
+          "timeA": "12:00",
           "timeOp": "between",
           "timeB": "16:00"
         },
@@ -1274,19 +1274,10 @@
     }
   ],
   "prog": {
-    "chartId": "chart_1774111620251",
-    "cur": "n_1774118545172",
+    "chartId": "chart_1774114072987",
+    "cur": "n_1774128229851",
     "hist": [
-      "start",
-      "n_1774111840673",
-      "n_1774111855803",
-      "n_1774111632432",
-      "n_1774112064860",
-      "n_1774112129113",
-      "n_1774112174885",
-      "n_1774112189693",
-      "n_1774111923026",
-      "n_1774111948445"
+      "n_1774128212363"
     ],
     "done": false,
     "callStack": []
@@ -1387,6 +1378,67 @@
         {
           "id": "t_1774178879961",
           "text": "add the ability to \"temporarily\" skip one or more nodes and have them pop up again later",
+          "done": true,
+          "subtasks": [],
+          "doneAt": "2026-03-22T13:48:45.744Z"
+        },
+        {
+          "id": "t_1774188297979",
+          "text": "add clean kitchen to the morning routine after breakfast",
+          "done": false,
+          "subtasks": []
+        },
+        {
+          "id": "t_1774188372255",
+          "text": "Add, get clothing, before shower task in morning routine. Or create a seperate flowchart for showering",
+          "done": false,
+          "subtasks": []
+        },
+        {
+          "id": "t_1774188392613",
+          "text": "Add the ability to create multiple outputs with flowchart nodes",
+          "done": false,
+          "subtasks": []
+        },
+        {
+          "id": "t_1774189276442",
+          "text": "make the run button outside of the action mode display a timer instead of a run button, if a timer is on",
+          "done": false,
+          "subtasks": []
+        },
+        {
+          "id": "t_1774189324863",
+          "text": "make it do you can see which node comes next before you press",
+          "done": false,
+          "subtasks": []
+        },
+        {
+          "id": "t_1774189452128",
+          "text": "add a \"race\" mode, where two people can go through the same routine and see who finishes it first",
+          "done": false,
+          "subtasks": []
+        },
+        {
+          "id": "t_1774189560002",
+          "text": "add a menu where you can share routines with eachother",
+          "done": false,
+          "subtasks": []
+        },
+        {
+          "id": "t_1774189697113",
+          "text": "Fix the \"do a random task from the inbox\" cuz it doesn't show any tasks",
+          "done": false,
+          "subtasks": []
+        },
+        {
+          "id": "t_1774189890082",
+          "text": "Fix routine, so it enables studying mode even on weekend if there is an exam coming up",
+          "done": false,
+          "subtasks": []
+        },
+        {
+          "id": "t_1774190473074",
+          "text": "make it so that when you open the app, the first thing it does is tell you what streak you are on",
           "done": false,
           "subtasks": []
         }
@@ -1515,6 +1567,14 @@
         {
           "id": "t_1774128407581",
           "text": "Dome Keeper",
+          "done": false,
+          "subtasks": [],
+          "dueDate": null,
+          "permanent": true
+        },
+        {
+          "id": "t_1774185341666",
+          "text": "Slay the Spire",
           "done": false,
           "subtasks": [],
           "dueDate": null,
@@ -1675,10 +1735,11 @@
         {
           "id": "t_1774108545806",
           "text": "add a node that can create tasks inside a task list",
-          "done": false,
+          "done": true,
           "subtasks": [],
           "dueDate": null,
-          "deps": []
+          "deps": [],
+          "doneAt": "2026-03-22T13:49:03.028Z"
         },
         {
           "id": "t_1774108559969",
@@ -1691,18 +1752,20 @@
         {
           "id": "t_1774109512939",
           "text": "add the ability to backup the data to a server or github",
-          "done": false,
+          "done": true,
           "subtasks": [],
           "dueDate": null,
-          "deps": []
+          "deps": [],
+          "doneAt": "2026-03-22T13:49:07.240Z"
         },
         {
           "id": "t_1774110409656",
           "text": "add tasks that are locked until another task is finished",
-          "done": false,
+          "done": true,
           "subtasks": [],
           "dueDate": null,
-          "deps": []
+          "deps": [],
+          "doneAt": "2026-03-22T13:49:10.806Z"
         },
         {
           "id": "t_1774111742557",
@@ -1986,18 +2049,15 @@
     "t_1774121416488": "2026-03-22T00:29:18.829Z",
     "t_1774177737902": "2026-03-22T13:13:42.111Z",
     "t_1774178377584": "2026-03-22T13:13:50.359Z",
-    "t_1774178388893": "2026-03-22T13:14:22.551Z"
+    "t_1774178388893": "2026-03-22T13:14:22.551Z",
+    "t_1774178879961": "2026-03-22T13:48:45.745Z",
+    "t_1774108545806": "2026-03-22T13:49:03.028Z",
+    "t_1774109512939": "2026-03-22T13:49:07.240Z",
+    "t_1774110409656": "2026-03-22T13:49:10.806Z"
   },
   "dailyCount": {},
   "taskCats": [],
   "fcCats": [],
-  "heldNodes": [
-    {
-      "uid": "held_1774183096039",
-      "chartId": "chart_1774111620251",
-      "nodeId": "n_1774112189693",
-      "label": "Shower",
-      "icon": "▶"
-    }
-  ]
+  "heldNodes": [],
+  "moodLog": []
 }
