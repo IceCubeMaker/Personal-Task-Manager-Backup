@@ -1832,115 +1832,6 @@
       "sort": "manual",
       "tasks": [
         {
-          "id": "t_1774207253156",
-          "text": "Super Metroid",
-          "done": false,
-          "subtasks": [
-            {
-              "id": "ra_343",
-              "text": "Why Can't Metroid Crawl?",
-              "done": false,
-              "raAchievementId": 343,
-              "raDescription": "Obtain the Morphing Ball ability",
-              "subtasks": [],
-              "tracked": true
-            },
-            {
-              "id": "ra_344",
-              "text": "Packing a Punch",
-              "done": false,
-              "raAchievementId": 344,
-              "raDescription": "Obtain a missile pack",
-              "subtasks": [],
-              "tracked": true
-            },
-            {
-              "id": "ra_1824",
-              "text": "Bomb Torizo",
-              "done": false,
-              "raAchievementId": 1824,
-              "raDescription": "Defeat the Bomb Torizo",
-              "subtasks": [],
-              "tracked": true
-            },
-            {
-              "id": "ra_1825",
-              "text": "I'm Super, Thanks for Asking",
-              "done": false,
-              "raAchievementId": 1825,
-              "raDescription": "Obtain Super Missiles",
-              "subtasks": [],
-              "tracked": true
-            },
-            {
-              "id": "ra_1839",
-              "text": "Power Bomb",
-              "done": false,
-              "raAchievementId": 1839,
-              "raDescription": "Obtain Power Bombs",
-              "subtasks": [],
-              "tracked": true
-            },
-            {
-              "id": "ra_1856",
-              "text": "Phantomended",
-              "done": false,
-              "raAchievementId": 1856,
-              "raDescription": "Defeat Phantoon and restore the ship's power",
-              "subtasks": [],
-              "tracked": true
-            },
-            {
-              "id": "ra_1863",
-              "text": "Abyss Dweller",
-              "done": false,
-              "raAchievementId": 1863,
-              "raDescription": "Defeat Botwoon",
-              "subtasks": [],
-              "tracked": true
-            },
-            {
-              "id": "ra_1872",
-              "text": "Revenge",
-              "done": false,
-              "raAchievementId": 1872,
-              "raDescription": "Defeat Ridley",
-              "subtasks": [],
-              "tracked": true
-            },
-            {
-              "id": "ra_1873",
-              "text": "Break the Seal",
-              "done": false,
-              "raAchievementId": 1873,
-              "raDescription": "Find the hidden entrance to Tourian",
-              "subtasks": [],
-              "tracked": true
-            },
-            {
-              "id": "ra_1875",
-              "text": "Braindead",
-              "done": false,
-              "raAchievementId": 1875,
-              "raDescription": "Defeat Mother Brain",
-              "subtasks": [],
-              "tracked": true
-            }
-          ],
-          "dueDate": null,
-          "tracked": true,
-          "connections": [
-            {
-              "type": "retroachievements",
-              "gameId": 236,
-              "gameTitle": "Super Metroid",
-              "gameImage": "https://media.retroachievements.org/Badge//Images/060989.png",
-              "filter": "progression",
-              "syncedAt": "2026-03-22T19:38:22.922Z"
-            }
-          ]
-        },
-        {
           "id": "t_1774207387297",
           "text": "Mario & Luigi Superstar Saga",
           "done": false,
@@ -2360,17 +2251,321 @@
           "id": "t_1774112665562",
           "text": "Metaphor ReFantazio",
           "done": false,
-          "subtasks": [],
+          "subtasks": [
+            {
+              "id": "steam_ACHIEVEMENT_2",
+              "text": "Coronation of the King",
+              "done": false,
+              "steamApiname": "ACHIEVEMENT_2",
+              "ra_desc": "",
+              "subtasks": [],
+              "tracked": true
+            },
+            {
+              "id": "steam_ACHIEVEMENT_3",
+              "text": "Allies United",
+              "done": true,
+              "steamApiname": "ACHIEVEMENT_3",
+              "ra_desc": "",
+              "subtasks": [],
+              "tracked": true
+            },
+            {
+              "id": "steam_ACHIEVEMENT_4",
+              "text": "Out of the Fire",
+              "done": true,
+              "steamApiname": "ACHIEVEMENT_4",
+              "ra_desc": "",
+              "subtasks": [],
+              "tracked": true
+            },
+            {
+              "id": "steam_ACHIEVEMENT_5",
+              "text": "Calamity Averted",
+              "done": true,
+              "steamApiname": "ACHIEVEMENT_5",
+              "ra_desc": "",
+              "subtasks": [],
+              "tracked": true
+            },
+            {
+              "id": "steam_ACHIEVEMENT_6",
+              "text": "Dark Truths",
+              "done": true,
+              "steamApiname": "ACHIEVEMENT_6",
+              "ra_desc": "",
+              "subtasks": [],
+              "tracked": true
+            },
+            {
+              "id": "steam_ACHIEVEMENT_7",
+              "text": "On Knife's Edge",
+              "done": false,
+              "steamApiname": "ACHIEVEMENT_7",
+              "ra_desc": "",
+              "subtasks": [],
+              "tracked": true
+            },
+            {
+              "id": "steam_ACHIEVEMENT_8",
+              "text": "History Untold",
+              "done": false,
+              "steamApiname": "ACHIEVEMENT_8",
+              "ra_desc": "",
+              "subtasks": [],
+              "tracked": true
+            },
+            {
+              "id": "steam_ACHIEVEMENT_9",
+              "text": "Mission Accomplished",
+              "done": false,
+              "steamApiname": "ACHIEVEMENT_9",
+              "ra_desc": "",
+              "subtasks": [],
+              "tracked": true
+            },
+            {
+              "id": "steam_ACHIEVEMENT_10",
+              "text": "Skybound Hope",
+              "done": false,
+              "steamApiname": "ACHIEVEMENT_10",
+              "ra_desc": "",
+              "subtasks": [],
+              "tracked": true
+            },
+            {
+              "id": "steam_ACHIEVEMENT_15",
+              "text": "His Majesty",
+              "done": false,
+              "steamApiname": "ACHIEVEMENT_15",
+              "ra_desc": "",
+              "subtasks": [],
+              "tracked": true
+            },
+            {
+              "id": "steam_ACHIEVEMENT_28",
+              "text": "Shake on It",
+              "done": true,
+              "steamApiname": "ACHIEVEMENT_28",
+              "ra_desc": "Obtain a Follower.",
+              "subtasks": [],
+              "tracked": true
+            }
+          ],
           "dueDate": null,
-          "deps": []
+          "deps": [],
+          "tracked": true,
+          "connections": [
+            {
+              "type": "steam",
+              "appId": "2679460",
+              "gameTitle": "Metaphor: ReFantazio",
+              "selectedApinames": [
+                "ACHIEVEMENT_3",
+                "ACHIEVEMENT_28",
+                "ACHIEVEMENT_4",
+                "ACHIEVEMENT_5",
+                "ACHIEVEMENT_6",
+                "ACHIEVEMENT_7",
+                "ACHIEVEMENT_8",
+                "ACHIEVEMENT_9",
+                "ACHIEVEMENT_15",
+                "ACHIEVEMENT_10",
+                "ACHIEVEMENT_2"
+              ],
+              "syncedAt": "2026-03-22T21:19:32.209Z"
+            }
+          ]
         },
         {
           "id": "t_1774112905916",
           "text": "Cassette Beasts",
           "done": false,
-          "subtasks": [],
+          "subtasks": [
+            {
+              "id": "steam_tutorial",
+              "text": "This Is The World We Live In",
+              "done": true,
+              "steamApiname": "tutorial",
+              "ra_desc": "Complete the tutorial",
+              "subtasks": [],
+              "tracked": true
+            },
+            {
+              "id": "steam_ability_glide",
+              "text": "Spread Your Wings",
+              "done": true,
+              "steamApiname": "ability_glide",
+              "ra_desc": "Obtain the Mothwing Glide ability",
+              "subtasks": [],
+              "tracked": true
+            },
+            {
+              "id": "steam_reopened_stations_final",
+              "text": "Heed My Words",
+              "done": false,
+              "steamApiname": "reopened_stations_final",
+              "ra_desc": "",
+              "subtasks": [],
+              "tracked": true
+            },
+            {
+              "id": "steam_aa_aleph_null",
+              "text": "Arrow of Time",
+              "done": false,
+              "steamApiname": "aa_aleph_null",
+              "ra_desc": "",
+              "subtasks": [],
+              "tracked": true
+            },
+            {
+              "id": "steam_aa_lamento_mori",
+              "text": "Angel of Death",
+              "done": false,
+              "steamApiname": "aa_lamento_mori",
+              "ra_desc": "",
+              "subtasks": [],
+              "tracked": true
+            },
+            {
+              "id": "steam_aa_cube",
+              "text": "Neoplatonic Solid",
+              "done": false,
+              "steamApiname": "aa_cube",
+              "ra_desc": "",
+              "subtasks": [],
+              "tracked": true
+            },
+            {
+              "id": "steam_aa_alice",
+              "text": "Child of Ego",
+              "done": false,
+              "steamApiname": "aa_alice",
+              "ra_desc": "",
+              "subtasks": [],
+              "tracked": true
+            },
+            {
+              "id": "steam_aa_puppet",
+              "text": "Master of Puppets",
+              "done": false,
+              "steamApiname": "aa_puppet",
+              "ra_desc": "",
+              "subtasks": [],
+              "tracked": true
+            },
+            {
+              "id": "steam_aa_tower",
+              "text": "Tower of Ignorance",
+              "done": false,
+              "steamApiname": "aa_tower",
+              "ra_desc": "",
+              "subtasks": [],
+              "tracked": true
+            },
+            {
+              "id": "steam_song_parts_8",
+              "text": "Land of Confusion",
+              "done": false,
+              "steamApiname": "song_parts_8",
+              "ra_desc": "Complete Morgante's song",
+              "subtasks": [],
+              "tracked": true
+            },
+            {
+              "id": "steam_aa_helia",
+              "text": "Here Comes the Sun",
+              "done": false,
+              "steamApiname": "aa_helia",
+              "ra_desc": "",
+              "subtasks": [],
+              "tracked": true
+            },
+            {
+              "id": "steam_met_npc_magikrab",
+              "text": "The Station Attendant",
+              "done": true,
+              "steamApiname": "met_npc_magikrab",
+              "ra_desc": "",
+              "subtasks": [],
+              "tracked": true
+            },
+            {
+              "id": "steam_met_npc_amber",
+              "text": "A Long Way from Home",
+              "done": false,
+              "steamApiname": "met_npc_amber",
+              "ra_desc": "",
+              "subtasks": [],
+              "tracked": true
+            },
+            {
+              "id": "steam_met_npc_merline",
+              "text": "The One Who Lies Beneath",
+              "done": false,
+              "steamApiname": "met_npc_merline",
+              "ra_desc": "",
+              "subtasks": [],
+              "tracked": true
+            },
+            {
+              "id": "steam_traveling_merchant",
+              "text": "Can't Buy Me Love",
+              "done": false,
+              "steamApiname": "traveling_merchant",
+              "ra_desc": "",
+              "subtasks": [],
+              "tracked": true
+            },
+            {
+              "id": "steam_intermission",
+              "text": "Not What You Wanted",
+              "done": false,
+              "steamApiname": "intermission",
+              "ra_desc": "",
+              "subtasks": [],
+              "tracked": true
+            },
+            {
+              "id": "steam_ending",
+              "text": "Real Life Awaits",
+              "done": false,
+              "steamApiname": "ending",
+              "ra_desc": "",
+              "subtasks": [],
+              "tracked": true
+            }
+          ],
           "dueDate": null,
-          "deps": []
+          "deps": [],
+          "tracked": true,
+          "connections": [
+            {
+              "type": "steam",
+              "appId": "1321440",
+              "gameTitle": "Cassette Beasts",
+              "selectedApinames": [
+                "tutorial",
+                "met_npc_magikrab",
+                "ability_glide",
+                "traveling_merchant",
+                "aa_puppet",
+                "aa_alice",
+                "aa_lamento_mori",
+                "aa_cube",
+                "aa_tower",
+                "song_parts_8",
+                "intermission",
+                "met_npc_amber",
+                "reopened_stations_final",
+                "aa_helia",
+                "met_npc_merline",
+                "aa_aleph_null",
+                "ending"
+              ],
+              "syncedAt": "2026-03-22T21:26:34.923Z"
+            }
+          ]
         },
         {
           "id": "t_1774112777251",
@@ -2383,10 +2578,11 @@
         {
           "id": "t_1774112886076",
           "text": "Disco Elysium",
-          "done": false,
+          "done": true,
           "subtasks": [],
           "dueDate": null,
-          "deps": []
+          "deps": [],
+          "doneAt": "2026-03-22T21:21:42.849Z"
         },
         {
           "id": "t_1774112898090",
@@ -2405,6 +2601,115 @@
           "deps": []
         },
         {
+          "id": "t_1774207253156",
+          "text": "Super Metroid",
+          "done": false,
+          "subtasks": [
+            {
+              "id": "ra_343",
+              "text": "Why Can't Metroid Crawl?",
+              "done": false,
+              "raAchievementId": 343,
+              "raDescription": "Obtain the Morphing Ball ability",
+              "subtasks": [],
+              "tracked": true
+            },
+            {
+              "id": "ra_344",
+              "text": "Packing a Punch",
+              "done": false,
+              "raAchievementId": 344,
+              "raDescription": "Obtain a missile pack",
+              "subtasks": [],
+              "tracked": true
+            },
+            {
+              "id": "ra_1824",
+              "text": "Bomb Torizo",
+              "done": false,
+              "raAchievementId": 1824,
+              "raDescription": "Defeat the Bomb Torizo",
+              "subtasks": [],
+              "tracked": true
+            },
+            {
+              "id": "ra_1825",
+              "text": "I'm Super, Thanks for Asking",
+              "done": false,
+              "raAchievementId": 1825,
+              "raDescription": "Obtain Super Missiles",
+              "subtasks": [],
+              "tracked": true
+            },
+            {
+              "id": "ra_1839",
+              "text": "Power Bomb",
+              "done": false,
+              "raAchievementId": 1839,
+              "raDescription": "Obtain Power Bombs",
+              "subtasks": [],
+              "tracked": true
+            },
+            {
+              "id": "ra_1856",
+              "text": "Phantomended",
+              "done": false,
+              "raAchievementId": 1856,
+              "raDescription": "Defeat Phantoon and restore the ship's power",
+              "subtasks": [],
+              "tracked": true
+            },
+            {
+              "id": "ra_1863",
+              "text": "Abyss Dweller",
+              "done": false,
+              "raAchievementId": 1863,
+              "raDescription": "Defeat Botwoon",
+              "subtasks": [],
+              "tracked": true
+            },
+            {
+              "id": "ra_1872",
+              "text": "Revenge",
+              "done": false,
+              "raAchievementId": 1872,
+              "raDescription": "Defeat Ridley",
+              "subtasks": [],
+              "tracked": true
+            },
+            {
+              "id": "ra_1873",
+              "text": "Break the Seal",
+              "done": false,
+              "raAchievementId": 1873,
+              "raDescription": "Find the hidden entrance to Tourian",
+              "subtasks": [],
+              "tracked": true
+            },
+            {
+              "id": "ra_1875",
+              "text": "Braindead",
+              "done": false,
+              "raAchievementId": 1875,
+              "raDescription": "Defeat Mother Brain",
+              "subtasks": [],
+              "tracked": true
+            }
+          ],
+          "dueDate": null,
+          "tracked": true,
+          "connections": [
+            {
+              "type": "retroachievements",
+              "gameId": 236,
+              "gameTitle": "Super Metroid",
+              "gameImage": "https://media.retroachievements.org/Badge//Images/060989.png",
+              "filter": "progression",
+              "syncedAt": "2026-03-22T19:38:22.922Z"
+            }
+          ]
+        },
+        {
           "id": "t_1774146186797",
           "text": "Mario and Luigi Dream Team Bros",
           "done": false,
@@ -2417,6 +2722,359 @@
           "done": false,
           "subtasks": [],
           "dueDate": null
+        },
+        {
+          "id": "t_1774210365750",
+          "text": "Pokemon Unbound",
+          "done": false,
+          "subtasks": [
+            {
+              "id": "ra_270032",
+              "text": "A Foggy Matter",
+              "done": false,
+              "raAchievementId": 270032,
+              "raDescription": "Earn the Leaf Badge in Dresco Town [Sandbox - Off]",
+              "subtasks": [],
+              "tracked": true
+            },
+            {
+              "id": "ra_270034",
+              "text": "The Fight at the Foot of the Volcano",
+              "done": false,
+              "raAchievementId": 270034,
+              "raDescription": "Team up with Jax and beat Shadow Admin Marlon at the Foot of the Cinder Volcano [Sandbox - Off]",
+              "subtasks": [],
+              "tracked": true
+            },
+            {
+              "id": "ra_270035",
+              "text": "Almost Dark",
+              "done": false,
+              "raAchievementId": 270035,
+              "raDescription": "Earn the Vision Badge in Crater Town [Sandbox - Off]",
+              "subtasks": [],
+              "tracked": true
+            },
+            {
+              "id": "ra_270037",
+              "text": "A Rival a Day",
+              "done": false,
+              "raAchievementId": 270037,
+              "raDescription": "Defeat your Rival in Frost Mountain [Sandbox - Off]",
+              "subtasks": [],
+              "tracked": true
+            },
+            {
+              "id": "ra_270038",
+              "text": "Clash in the Nest",
+              "done": false,
+              "raAchievementId": 270038,
+              "raDescription": "Earn the Wings Badge in Blizzard City [Sandbox - Off]",
+              "subtasks": [],
+              "tracked": true
+            },
+            {
+              "id": "ra_270039",
+              "text": "Offworld Jawas",
+              "done": false,
+              "raAchievementId": 270039,
+              "raDescription": "Defeat the Shadow Warriors on Route 9 [Sandbox - Off]",
+              "subtasks": [],
+              "tracked": true
+            },
+            {
+              "id": "ra_270041",
+              "text": "The Sun Paints the Waterfall",
+              "done": false,
+              "raAchievementId": 270041,
+              "raDescription": "Earn the Fall Badge in Fallshore City [Sandbox - Off]",
+              "subtasks": [],
+              "tracked": true
+            },
+            {
+              "id": "ra_270042",
+              "text": "Fly Little Bird",
+              "done": false,
+              "raAchievementId": 270042,
+              "raDescription": "Defeat Marlon on the top of Thundercap Mountain and free Zapdos [Sandbox - Off]",
+              "subtasks": [],
+              "tracked": true
+            },
+            {
+              "id": "ra_270043",
+              "text": "We Both Know Exactly What You're Going to Choose!",
+              "done": false,
+              "raAchievementId": 270043,
+              "raDescription": "Defeat Maxima and get one of the Mega Items [Sandbox - Off]",
+              "subtasks": [],
+              "tracked": true
+            },
+            {
+              "id": "ra_270045",
+              "text": "Another Route Another Rival",
+              "done": false,
+              "raAchievementId": 270045,
+              "raDescription": "Defeat your Rival on Route 12 [Sandbox - Off]",
+              "subtasks": [],
+              "tracked": true
+            },
+            {
+              "id": "ra_270047",
+              "text": "So Much Space",
+              "done": false,
+              "raAchievementId": 270047,
+              "raDescription": "Go through the Mazes and meet Aros and Marlon in the Cube",
+              "subtasks": [],
+              "tracked": true
+            },
+            {
+              "id": "ra_270048",
+              "text": "Wish Mafióso",
+              "done": false,
+              "raAchievementId": 270048,
+              "raDescription": "Defeat Boss Zeph in the Shadow Base and put an end to the evil deeds [Sandbox - Off]",
+              "subtasks": [],
+              "tracked": true
+            },
+            {
+              "id": "ra_270049",
+              "text": "We Go Full Charge",
+              "done": false,
+              "raAchievementId": 270049,
+              "raDescription": "Earn the Battery Badge in Dehara City [Sandbox - Off]",
+              "subtasks": [],
+              "tracked": true
+            },
+            {
+              "id": "ra_270050",
+              "text": "Your Password Sucks, Bro",
+              "done": false,
+              "raAchievementId": 270050,
+              "raDescription": "Crack the password and defeat Aklove [Sandbox - Off]",
+              "subtasks": [],
+              "tracked": true
+            },
+            {
+              "id": "ra_270051",
+              "text": "Back From the Sewers",
+              "done": false,
+              "raAchievementId": 270051,
+              "raDescription": "Earn the Ring Badge in Antisis City [Sandbox - Off]",
+              "subtasks": [],
+              "tracked": true
+            },
+            {
+              "id": "ra_270052",
+              "text": "Eerie it is to Walk Across the Moor",
+              "done": false,
+              "raAchievementId": 270052,
+              "raDescription": "Earn the Swamp Badge in Polder Town [Sandbox - Off]",
+              "subtasks": [],
+              "tracked": true
+            },
+            {
+              "id": "ra_270053",
+              "text": "The More Rivals the Better",
+              "done": false,
+              "raAchievementId": 270053,
+              "raDescription": "Defeat your Rival at Crystal Peak [Sandbox - Off]",
+              "subtasks": [],
+              "tracked": true
+            },
+            {
+              "id": "ra_270054",
+              "text": "A Mythical for Free?",
+              "done": false,
+              "raAchievementId": 270054,
+              "raDescription": "Defeat Hoopa and let it join your Team [Sandbox - Off]",
+              "subtasks": [],
+              "tracked": true
+            },
+            {
+              "id": "ra_270055",
+              "text": "Back in Time",
+              "done": false,
+              "raAchievementId": 270055,
+              "raDescription": "Earn the Time Badge in Redwood Village [Sandbox - Off]",
+              "subtasks": [],
+              "tracked": true
+            },
+            {
+              "id": "ra_270057",
+              "text": "Champion!",
+              "done": false,
+              "raAchievementId": 270057,
+              "raDescription": "Fight your way through the Pokemon League and become the Pokemon Champion [Sandbox - Off]",
+              "subtasks": [],
+              "tracked": true
+            }
+          ],
+          "dueDate": null,
+          "tracked": true,
+          "connections": [
+            {
+              "type": "retroachievements",
+              "gameId": 17530,
+              "gameTitle": "~Hack~ Pokémon Unbound",
+              "gameImage": "https://media.retroachievements.org/Badge//Images/073204.png",
+              "filter": "story",
+              "syncedAt": "2026-03-22T20:12:54.407Z"
+            }
+          ]
+        },
+        {
+          "id": "t_1774210436803",
+          "text": "Pokemon Yellow Version",
+          "done": false,
+          "subtasks": [
+            {
+              "id": "ra_4428",
+              "text": "Showdown in Pewter City",
+              "done": false,
+              "raAchievementId": 4428,
+              "raDescription": "Earn the Boulder Badge in Pewter City.",
+              "subtasks": [],
+              "tracked": true
+            },
+            {
+              "id": "ra_4429",
+              "text": "The Water Flower of Cerulean City",
+              "done": false,
+              "raAchievementId": 4429,
+              "raDescription": "Earn the Cascade Badge in Cerulean City.",
+              "subtasks": [],
+              "tracked": true
+            },
+            {
+              "id": "ra_4430",
+              "text": "Electric Shock Showdown",
+              "done": false,
+              "raAchievementId": 4430,
+              "raDescription": "Earn the Thunder Badge in Vermillion City.",
+              "subtasks": [],
+              "tracked": true
+            },
+            {
+              "id": "ra_4431",
+              "text": "Pokemon Scent-sation",
+              "done": false,
+              "raAchievementId": 4431,
+              "raDescription": "Earn the Rainbow Badge in Celadon City.",
+              "subtasks": [],
+              "tracked": true
+            },
+            {
+              "id": "ra_4432",
+              "text": "The Ninja Poke-Showdown",
+              "done": false,
+              "raAchievementId": 4432,
+              "raDescription": "Earn the Soul Badge in Fuchsia City.",
+              "subtasks": [],
+              "tracked": true
+            },
+            {
+              "id": "ra_4433",
+              "text": "Psychic Showdown",
+              "done": false,
+              "raAchievementId": 4433,
+              "raDescription": "Earn the Marsh Badge in Saffron City.",
+              "subtasks": [],
+              "tracked": true
+            },
+            {
+              "id": "ra_4434",
+              "text": "Volcanic Panic",
+              "done": false,
+              "raAchievementId": 4434,
+              "raDescription": "Earn the Volcano Badge in Cinnabar Island.",
+              "subtasks": [],
+              "tracked": true
+            },
+            {
+              "id": "ra_4435",
+              "text": "Team Rocket's Blasting Off Again!",
+              "done": false,
+              "raAchievementId": 4435,
+              "raDescription": "Earn the Earth Badge in Viridian City.",
+              "subtasks": [],
+              "tracked": true
+            },
+            {
+              "id": "ra_4437",
+              "text": "Pokemon Master!",
+              "done": false,
+              "raAchievementId": 4437,
+              "raDescription": "Defeat the Elite Four and the Champion of the Pokemon League.",
+              "subtasks": [],
+              "tracked": true
+            },
+            {
+              "id": "ra_81655",
+              "text": "Pokemon - I Choose You!",
+              "done": true,
+              "raAchievementId": 81655,
+              "raDescription": "Obtain a Pokedex from Prof. Oak.",
+              "subtasks": [],
+              "tracked": true
+            },
+            {
+              "id": "ra_81659",
+              "text": "Gatekeeper of the Nugget Bridge",
+              "done": false,
+              "raAchievementId": 81659,
+              "raDescription": "Defeat your Rival on Cerulean City's Nugget Bridge.",
+              "subtasks": [],
+              "tracked": true
+            },
+            {
+              "id": "ra_81665",
+              "text": "Battle Aboard the St. Anne",
+              "done": false,
+              "raAchievementId": 81665,
+              "raDescription": "Defeat your Rival aboard the S.S. Anne in Vermilion City.",
+              "subtasks": [],
+              "tracked": true
+            },
+            {
+              "id": "ra_81667",
+              "text": "Not the most appropriate arena...",
+              "done": false,
+              "raAchievementId": 81667,
+              "raDescription": "Defeat your Rival inside the Pokemon Tower in Lavender Town.",
+              "subtasks": [],
+              "tracked": true
+            },
+            {
+              "id": "ra_81672",
+              "text": "Do we REALLY have to do this now?",
+              "done": false,
+              "raAchievementId": 81672,
+              "raDescription": "Defeat your Rival inside the Silph Co. in Saffron City.",
+              "subtasks": [],
+              "tracked": true
+            },
+            {
+              "id": "ra_81679",
+              "text": "Gatekeeper of Victory Road",
+              "done": false,
+              "raAchievementId": 81679,
+              "raDescription": "Defeat your Rival on Route 22 while traveling to the Pokemon League.",
+              "subtasks": [],
+              "tracked": true
+            }
+          ],
+          "dueDate": null,
+          "tracked": true,
+          "connections": [
+            {
+              "type": "retroachievements",
+              "gameId": 723,
+              "gameTitle": "Pokémon Yellow Version: Special Pikachu Edition",
+              "gameImage": "https://media.retroachievements.org/Badge//Images/105480.png",
+              "filter": "story",
+              "syncedAt": "2026-03-22T20:14:02.760Z"
+            }
+          ]
         }
       ],
       "categoryId": "cat_1774110746921",
@@ -2799,7 +3457,8 @@
     "t_1774178879961": "2026-03-22T13:48:45.745Z",
     "t_1774108545806": "2026-03-22T13:49:03.028Z",
     "t_1774109512939": "2026-03-22T13:49:07.240Z",
-    "t_1774110409656": "2026-03-22T13:49:10.806Z"
+    "t_1774110409656": "2026-03-22T13:49:10.806Z",
+    "t_1774112886076": "2026-03-22T21:21:42.854Z"
   },
   "dailyCount": {},
   "taskCats": [],
@@ -2812,5 +3471,7 @@
   "heldNodes": [],
   "moodLog": [],
   "raUser": "IceCubeMaker",
-  "raKey": "OvI0vNKUlmYtxHBkHJ6c6qoo6WZFiFHQ"
+  "raKey": "OvI0vNKUlmYtxHBkHJ6c6qoo6WZFiFHQ",
+  "steamId": "76561199199995485",
+  "steamKey": "DA5BD50A5D69B3708C567E6FEC84705C"
 }
