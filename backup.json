@@ -201,30 +201,30 @@
           "text": "Start",
           "next": "n_1774096432123",
           "x": 288,
-          "y": -408
+          "y": -624
         },
         "end": {
           "id": "end",
           "type": "end",
           "text": "End",
-          "x": 96,
-          "y": 864
+          "x": -264,
+          "y": 816
         },
         "n_1774089104265": {
           "id": "n_1774089104265",
           "type": "flowchart",
           "text": "Pomodoro Break",
           "next": "n_1774089390376",
-          "x": 888,
-          "y": 696,
+          "x": 1152,
+          "y": 1128,
           "chartRef": "chart_1774089091794"
         },
         "n_1774089390376": {
           "id": "n_1774089390376",
           "type": "auto",
           "text": "Is it after 16:00?",
-          "x": 288,
-          "y": 24,
+          "x": 0,
+          "y": 264,
           "autoType": "time",
           "timeOp": "after",
           "timeA": "16:00",
@@ -235,8 +235,8 @@
           "id": "n_1774091904086",
           "type": "condition",
           "text": "Is there an exam coming up?",
-          "x": 288,
-          "y": 192,
+          "x": 0,
+          "y": 432,
           "yes": "n_1774091955734",
           "no": "end",
           "rememberAnswer": true,
@@ -246,8 +246,8 @@
           "id": "n_1774091955734",
           "type": "auto",
           "text": "Is it after 18:00?",
-          "x": 288,
-          "y": 456,
+          "x": 0,
+          "y": 696,
           "yes": "n_1774193105692",
           "no": "n_1774091904086_d1774128477685",
           "autoType": "time",
@@ -257,9 +257,9 @@
           "id": "n_1774095590203",
           "type": "tasklist",
           "text": "Pomodoro Studying",
-          "next": "n_1774089104265",
-          "x": 888,
-          "y": 552,
+          "next": "n_1774194784794",
+          "x": 1152,
+          "y": 816,
           "duration": 2700,
           "listId": "list_1774093880028"
         },
@@ -268,10 +268,11 @@
           "type": "condition",
           "text": "Are you at home?",
           "x": 288,
-          "y": -264,
+          "y": -480,
           "yes": "n_1774096459350",
-          "no": "n_1774089390376",
-          "rememberAnswer": false
+          "no": "n_1774194112631",
+          "rememberAnswer": true,
+          "rememberKey": "n_1774096432123"
         },
         "n_1774096459350": {
           "id": "n_1774096459350",
@@ -279,7 +280,7 @@
           "text": "Clean a bit first",
           "next": "n_1774193820010",
           "x": -144,
-          "y": -336,
+          "y": -480,
           "trackingId": null,
           "duration": 600
         },
@@ -288,8 +289,8 @@
           "type": "condition",
           "text": "Is there an exam coming up?",
           "x": 888,
-          "y": 456,
-          "yes": "n_1774095590203",
+          "y": 264,
+          "yes": "n_1774096432123_d1774194305305",
           "no": "n_1774128492988",
           "rememberAnswer": true,
           "rememberKey": "n_1774091904086"
@@ -298,10 +299,10 @@
           "id": "n_1774128492988",
           "type": "auto",
           "text": "Is it Friday?",
-          "x": 1176,
-          "y": 456,
+          "x": 1152,
+          "y": 264,
           "yes": "n_1774128513867",
-          "no": "n_1774095590203",
+          "no": "n_1774096432123_d1774194305305",
           "autoType": "day",
           "days": [
             "Friday"
@@ -311,9 +312,9 @@
           "id": "n_1774128513867",
           "type": "tasklist",
           "text": "Pomodoro ChillCube",
-          "next": "n_1774089104265",
-          "x": 1440,
-          "y": 456,
+          "next": "n_1774096432123_d1774194305305",
+          "x": 1416,
+          "y": 264,
           "duration": 2700,
           "listId": "list_1774121101665"
         },
@@ -321,17 +322,17 @@
           "id": "n_1774192983541",
           "type": "action",
           "text": "Put on Some Nice Music!",
-          "next": "n_1774089390376",
-          "x": -144,
-          "y": 24,
+          "next": "n_1774194112631",
+          "x": -120,
+          "y": -48,
           "trackingId": null
         },
         "n_1774193105692": {
           "id": "n_1774193105692",
           "type": "condition",
           "text": "Do you want to continue?",
-          "x": 288,
-          "y": 576,
+          "x": 0,
+          "y": 816,
           "yes": "n_1774091904086_d1774128477685",
           "no": "end"
         },
@@ -340,18 +341,102 @@
           "type": "condition",
           "text": "Do you have snacks at home?",
           "x": -144,
-          "y": -168,
+          "y": -312,
           "yes": "n_1774193835624",
-          "no": "n_1774192983541"
+          "no": "n_1774194174478"
         },
         "n_1774193835624": {
           "id": "n_1774193835624",
           "type": "action",
           "text": "Bring out the snacks!",
+          "next": "n_1774194174478",
+          "x": -504,
+          "y": -312,
+          "trackingId": null
+        },
+        "n_1774194112631": {
+          "id": "n_1774194112631",
+          "type": "action",
+          "text": "Remove Distractions",
+          "next": "n_1774089390376",
+          "x": 288,
+          "y": -120,
+          "trackingId": null
+        },
+        "n_1774194174478": {
+          "id": "n_1774194174478",
+          "type": "condition",
+          "text": "Do you have tea at home?",
+          "x": -432,
+          "y": -144,
+          "yes": "n_1774194216130",
+          "no": "n_1774192983541"
+        },
+        "n_1774194216130": {
+          "id": "n_1774194216130",
+          "type": "action",
+          "text": "Make tea!",
           "next": "n_1774192983541",
           "x": -432,
-          "y": -168,
+          "y": -48,
           "trackingId": null
+        },
+        "n_1774194252796": {
+          "id": "n_1774194252796",
+          "type": "condition",
+          "text": "Is your cup full?",
+          "x": 1152,
+          "y": 648,
+          "yes": "n_1774095590203",
+          "no": "n_1774194364035"
+        },
+        "n_1774096432123_d1774194305305": {
+          "id": "n_1774096432123_d1774194305305",
+          "type": "condition",
+          "text": "Are you at home?",
+          "x": 1152,
+          "y": 408,
+          "yes": "n_1774194252796",
+          "no": "n_1774194315769",
+          "rememberAnswer": true,
+          "rememberKey": "n_1774096432123"
+        },
+        "n_1774194315769": {
+          "id": "n_1774194315769",
+          "type": "condition",
+          "text": "Is your flask empty?",
+          "x": 1368,
+          "y": 744,
+          "yes": "n_1774194419420",
+          "no": "n_1774095590203"
+        },
+        "n_1774194364035": {
+          "id": "n_1774194364035",
+          "type": "action",
+          "text": "Make some more tea!",
+          "next": "n_1774095590203",
+          "x": 864,
+          "y": 816,
+          "trackingId": null
+        },
+        "n_1774194419420": {
+          "id": "n_1774194419420",
+          "type": "action",
+          "text": "Fill up your flask!",
+          "next": "n_1774095590203",
+          "x": 1560,
+          "y": 840,
+          "trackingId": null
+        },
+        "n_1774194784794": {
+          "id": "n_1774194784794",
+          "type": "mood",
+          "text": "How do you feel?",
+          "next": "n_1774089104265",
+          "x": 1152,
+          "y": 960,
+          "trackingId": null,
+          "moodNote": false
         }
       }
     },
@@ -1495,6 +1580,24 @@
         {
           "id": "t_1774190473074",
           "text": "make it so that when you open the app, the first thing it does is tell you what streak you are on",
+          "done": false,
+          "subtasks": []
+        },
+        {
+          "id": "t_1774194047855",
+          "text": "add a timer notification, so you can see how far the timer is even when outside of the app",
+          "done": false,
+          "subtasks": []
+        },
+        {
+          "id": "t_1774194743654",
+          "text": "add a feature to run multiple routines at once",
+          "done": false,
+          "subtasks": []
+        },
+        {
+          "id": "t_1774194880119",
+          "text": "add the option to have diverging paths for the mood node",
           "done": false,
           "subtasks": []
         }
