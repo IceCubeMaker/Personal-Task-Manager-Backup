@@ -123,7 +123,11 @@
           "x": -984,
           "y": 696,
           "yes": "n_1774128856796",
-          "no": "n_1774129016518"
+          "no": "n_1774129016518",
+          "autoType": "day",
+          "days": [
+            "Sunday"
+          ]
         },
         "n_1774129002458": {
           "id": "n_1774129002458",
@@ -885,160 +889,6 @@
       "categoryId": "fcat_1774202197339"
     },
     {
-      "id": "chart_1774111620251",
-      "name": "Morning Routine",
-      "isMain": false,
-      "nodes": {
-        "start": {
-          "id": "start",
-          "type": "start",
-          "text": "Start",
-          "next": "n_1774111840673",
-          "x": 288,
-          "y": 24
-        },
-        "end": {
-          "id": "end",
-          "type": "end",
-          "text": "End",
-          "x": 288,
-          "y": 1296
-        },
-        "n_1774111632432": {
-          "id": "n_1774111632432",
-          "type": "action",
-          "text": "Make Bed!",
-          "next": "n_1774112064860",
-          "x": 288,
-          "y": 432,
-          "trackingId": null
-        },
-        "n_1774111840673": {
-          "id": "n_1774111840673",
-          "type": "action",
-          "text": "Good Morning!",
-          "next": "n_1774111855803",
-          "x": 288,
-          "y": 144,
-          "trackingId": null
-        },
-        "n_1774111855803": {
-          "id": "n_1774111855803",
-          "type": "condition",
-          "text": "Are you at home?",
-          "x": 288,
-          "y": 288,
-          "yes": "n_1774111632432",
-          "no": "n_1774111886905"
-        },
-        "n_1774111886905": {
-          "id": "n_1774111886905",
-          "type": "condition",
-          "text": "Are you with GF?",
-          "x": 552,
-          "y": 288,
-          "yes": "n_1774111904923",
-          "no": "n_1774111632432"
-        },
-        "n_1774111904923": {
-          "id": "n_1774111904923",
-          "type": "condition",
-          "text": "Is breakfast ready?",
-          "x": 816,
-          "y": 288,
-          "yes": "n_1774111948445",
-          "no": "n_1774111923026"
-        },
-        "n_1774111923026": {
-          "id": "n_1774111923026",
-          "type": "action",
-          "text": "Make Breakfast",
-          "next": "n_1774111948445",
-          "x": 288,
-          "y": 792,
-          "trackingId": null
-        },
-        "n_1774111948445": {
-          "id": "n_1774111948445",
-          "type": "action",
-          "text": "Eat Breakfast",
-          "next": "n_1774118545172",
-          "x": 288,
-          "y": 912,
-          "trackingId": null
-        },
-        "n_1774112064860": {
-          "id": "n_1774112064860",
-          "type": "condition",
-          "text": "Do you have to leave early?",
-          "x": 288,
-          "y": 552,
-          "yes": "n_1774111923026",
-          "no": "n_1774112129113"
-        },
-        "n_1774112129113": {
-          "id": "n_1774112129113",
-          "type": "action",
-          "text": "Empty floor in bedroom",
-          "next": "n_1774112174885",
-          "x": 0,
-          "y": 552,
-          "trackingId": null,
-          "duration": 300
-        },
-        "n_1774112174885": {
-          "id": "n_1774112174885",
-          "type": "tasklist",
-          "text": "Exercise",
-          "next": "n_1774112189693",
-          "x": 0,
-          "y": 672,
-          "duration": 600,
-          "listId": "list_1774112227009"
-        },
-        "n_1774112189693": {
-          "id": "n_1774112189693",
-          "type": "action",
-          "text": "Shower",
-          "next": "n_1774111923026",
-          "x": 0,
-          "y": 792,
-          "trackingId": null,
-          "duration": 1500,
-          "trackDaily": false
-        },
-        "n_1774118545172": {
-          "id": "n_1774118545172",
-          "type": "action",
-          "text": "Brush Teeth",
-          "next": "n_1774119366095",
-          "x": 288,
-          "y": 1032,
-          "trackingId": null
-        },
-        "n_1774119366095": {
-          "id": "n_1774119366095",
-          "type": "condition",
-          "text": "Going to University?",
-          "x": 288,
-          "y": 1152,
-          "yes": "n_1774119392595",
-          "no": "end"
-        },
-        "n_1774119392595": {
-          "id": "n_1774119392595",
-          "type": "flowchart",
-          "text": "At University",
-          "x": 24,
-          "y": 1152,
-          "next": "end",
-          "chartRef": "chart_1774119326698"
-        }
-      },
-      "groups": [],
-      "categoryId": "fcat_1774116790698"
-    },
-    {
       "id": "chart_1774116898629",
       "name": "Meal Planning",
       "nodes": {
@@ -1443,61 +1293,174 @@
           "y": 140
         }
       }
+    },
+    {
+      "id": "chart_1774111620251",
+      "name": "Morning Routine",
+      "isMain": false,
+      "nodes": {
+        "start": {
+          "id": "start",
+          "type": "start",
+          "text": "Start",
+          "next": "n_1774111840673",
+          "x": 288,
+          "y": 24
+        },
+        "end": {
+          "id": "end",
+          "type": "end",
+          "text": "End",
+          "x": 288,
+          "y": 1296
+        },
+        "n_1774111632432": {
+          "id": "n_1774111632432",
+          "type": "action",
+          "text": "Make Bed!",
+          "next": "n_1774112064860",
+          "x": 288,
+          "y": 432,
+          "trackingId": null
+        },
+        "n_1774111840673": {
+          "id": "n_1774111840673",
+          "type": "action",
+          "text": "Good Morning!",
+          "next": "n_1774111855803",
+          "x": 288,
+          "y": 144,
+          "trackingId": null
+        },
+        "n_1774111855803": {
+          "id": "n_1774111855803",
+          "type": "condition",
+          "text": "Are you at home?",
+          "x": 288,
+          "y": 288,
+          "yes": "n_1774111632432",
+          "no": "n_1774111886905"
+        },
+        "n_1774111886905": {
+          "id": "n_1774111886905",
+          "type": "condition",
+          "text": "Are you with GF?",
+          "x": 552,
+          "y": 288,
+          "yes": "n_1774111904923",
+          "no": "n_1774111632432"
+        },
+        "n_1774111904923": {
+          "id": "n_1774111904923",
+          "type": "condition",
+          "text": "Is breakfast ready?",
+          "x": 816,
+          "y": 288,
+          "yes": "n_1774111948445",
+          "no": "n_1774111923026"
+        },
+        "n_1774111923026": {
+          "id": "n_1774111923026",
+          "type": "action",
+          "text": "Make Breakfast",
+          "next": "n_1774111948445",
+          "x": 288,
+          "y": 792,
+          "trackingId": null
+        },
+        "n_1774111948445": {
+          "id": "n_1774111948445",
+          "type": "action",
+          "text": "Eat Breakfast",
+          "next": "n_1774118545172",
+          "x": 288,
+          "y": 912,
+          "trackingId": null
+        },
+        "n_1774112064860": {
+          "id": "n_1774112064860",
+          "type": "condition",
+          "text": "Do you have to leave early?",
+          "x": 288,
+          "y": 552,
+          "yes": "n_1774111923026",
+          "no": "n_1774112129113"
+        },
+        "n_1774112129113": {
+          "id": "n_1774112129113",
+          "type": "action",
+          "text": "Empty floor in bedroom",
+          "next": "n_1774112174885",
+          "x": 0,
+          "y": 552,
+          "trackingId": null,
+          "duration": 300
+        },
+        "n_1774112174885": {
+          "id": "n_1774112174885",
+          "type": "tasklist",
+          "text": "Exercise",
+          "next": "n_1774112189693",
+          "x": 0,
+          "y": 672,
+          "duration": 600,
+          "listId": "list_1774112227009"
+        },
+        "n_1774112189693": {
+          "id": "n_1774112189693",
+          "type": "action",
+          "text": "Shower",
+          "next": "n_1774111923026",
+          "x": 0,
+          "y": 792,
+          "trackingId": null,
+          "duration": 1500,
+          "trackDaily": false
+        },
+        "n_1774118545172": {
+          "id": "n_1774118545172",
+          "type": "action",
+          "text": "Brush Teeth",
+          "next": "n_1774119366095",
+          "x": 288,
+          "y": 1032,
+          "trackingId": null
+        },
+        "n_1774119366095": {
+          "id": "n_1774119366095",
+          "type": "condition",
+          "text": "Going to University?",
+          "x": 288,
+          "y": 1152,
+          "yes": "n_1774119392595",
+          "no": "end"
+        },
+        "n_1774119392595": {
+          "id": "n_1774119392595",
+          "type": "flowchart",
+          "text": "At University",
+          "x": 24,
+          "y": 1152,
+          "next": "end",
+          "chartRef": "chart_1774119326698"
+        }
+      },
+      "groups": [],
+      "categoryId": "fcat_1774202197339"
     }
   ],
   "prog": {
-    "chartId": "chart_1774089091794",
-    "cur": "n_1774196764773",
+    "chartId": "main",
+    "cur": "n_1774128856796",
     "hist": [
       "start",
-      "n_1774090997906",
-      "n_1774094259699",
-      "n_1774196730294"
+      "n_1774111551883",
+      "n_1774112279692",
+      "n_1774129079933",
+      "n_1774128875075"
     ],
     "done": false,
-    "callStack": [
-      {
-        "chartId": "main",
-        "cur": "n_1774089330906",
-        "hist": [
-          "start",
-          "n_1774111551883",
-          "n_1774112279692",
-          "n_1774191196387"
-        ]
-      },
-      {
-        "chartId": "chart_1774088952960",
-        "cur": "n_1774089104265",
-        "hist": [
-          "start",
-          "n_1774096432123",
-          "n_1774096459350",
-          "n_1774193820010",
-          "n_1774193835624",
-          "n_1774194174478",
-          "n_1774194216130",
-          "n_1774192983541",
-          "n_1774194112631",
-          "n_1774089390376",
-          "n_1774091904086",
-          "n_1774091955734",
-          "n_1774091904086_d1774128477685",
-          "n_1774096432123_d1774194305305",
-          "n_1774194252796",
-          "n_1774095590203",
-          "n_1774089104265",
-          "n_1774089390376",
-          "n_1774091904086",
-          "n_1774091955734",
-          "n_1774091904086_d1774128477685",
-          "n_1774096432123_d1774194305305",
-          "n_1774194252796",
-          "n_1774095590203"
-        ],
-        "returnNext": "n_1774128875075"
-      }
-    ]
+    "callStack": []
   },
   "events": [
     {
@@ -1700,6 +1663,12 @@
           "text": "ruf Oma Tätendorf an",
           "done": false,
           "subtasks": []
+        },
+        {
+          "id": "t_1774203507328",
+          "text": "add a way to see which flowcharts are calling upon which flowchart",
+          "done": false,
+          "subtasks": []
         }
       ]
     },
@@ -1867,7 +1836,699 @@
           "text": "Mario and Luigi Superstar Saga",
           "done": false,
           "dueDate": null,
-          "deps": []
+          "deps": [],
+          "connections": [
+            {
+              "type": "retroachievements",
+              "gameId": 771,
+              "gameTitle": "Mario & Luigi: Superstar Saga",
+              "gameImage": "https://media.retroachievements.org/Badge//Images/116411.png",
+              "filter": "all",
+              "syncedAt": "2026-03-22T19:09:57.103Z"
+            }
+          ],
+          "subtasks": [
+            {
+              "id": "ra_40689",
+              "text": "The Perfect Classic Conflict",
+              "done": false,
+              "raAchievementId": 40689,
+              "raDescription": "Defeat Bowser at Peach's Castle without taking damage!",
+              "subtasks": []
+            },
+            {
+              "id": "ra_40690",
+              "text": "A Little Help Goes a Long Way",
+              "done": false,
+              "raAchievementId": 40690,
+              "raDescription": "Help Toads and Koopas before boarding the Koopa Cruiser!",
+              "subtasks": []
+            },
+            {
+              "id": "ra_40691",
+              "text": "Cruisin for a Bruisin",
+              "done": true,
+              "raAchievementId": 40691,
+              "raDescription": "Defeat Fawful on Koopa Cruiser.",
+              "subtasks": []
+            },
+            {
+              "id": "ra_40692",
+              "text": "Make a Run for the Border",
+              "done": false,
+              "raAchievementId": 40692,
+              "raDescription": "Clear Border Jump with no miss.",
+              "subtasks": []
+            },
+            {
+              "id": "ra_40693",
+              "text": "Behind Enemy Lines",
+              "done": false,
+              "raAchievementId": 40693,
+              "raDescription": "Clear COMPLETE Border Jump!",
+              "subtasks": []
+            },
+            {
+              "id": "ra_40694",
+              "text": "Mario and Luigi's Flying Circus",
+              "done": true,
+              "raAchievementId": 40694,
+              "raDescription": "Get High Jump and Spin Jump.",
+              "subtasks": []
+            },
+            {
+              "id": "ra_40695",
+              "text": "Tolstar Recall",
+              "done": true,
+              "raAchievementId": 40695,
+              "raDescription": "Defeat the tollbooth tyrant, Tolstar!",
+              "subtasks": []
+            },
+            {
+              "id": "ra_40696",
+              "text": "Making a Molehill out of a Mountain",
+              "done": true,
+              "raAchievementId": 40696,
+              "raDescription": "Crush the Hoohoo Mountain midboss, Hoohooros!",
+              "subtasks": []
+            },
+            {
+              "id": "ra_40697",
+              "text": "ROCK THE DRAGON!",
+              "done": true,
+              "raAchievementId": 40697,
+              "raDescription": "Defeat Dragohoho at the top of Hoohoo Mountain!",
+              "subtasks": []
+            },
+            {
+              "id": "ra_40698",
+              "text": "Mine Cart Madness",
+              "done": true,
+              "raAchievementId": 40698,
+              "raDescription": "Clear Mysterious Mine Carts through Hoohoo Mountain.",
+              "subtasks": []
+            },
+            {
+              "id": "ra_40699",
+              "text": "Mine Cart Carnage",
+              "done": false,
+              "raAchievementId": 40699,
+              "raDescription": "Complete Level 05 of Mysterious Mine Carts!",
+              "subtasks": []
+            },
+            {
+              "id": "ra_40700",
+              "text": "Real Actual Plumbing Work",
+              "done": true,
+              "raAchievementId": 40700,
+              "raDescription": "Do your job and fix Beanbean Castle's plumbing.",
+              "subtasks": []
+            },
+            {
+              "id": "ra_40701",
+              "text": "You Won't Like Me When I'm Queenie",
+              "done": false,
+              "raAchievementId": 40701,
+              "raDescription": "Defeat the hulking-mad Queen Bean!",
+              "subtasks": []
+            },
+            {
+              "id": "ra_40702",
+              "text": "WE'RE Shakin' Up the Soda Here Now, See?",
+              "done": false,
+              "raAchievementId": 40702,
+              "raDescription": "Defeat Popple and Rookie at Chateau de Chucklehuck!",
+              "subtasks": []
+            },
+            {
+              "id": "ra_40703",
+              "text": "Of Mice and Moles",
+              "done": false,
+              "raAchievementId": 40703,
+              "raDescription": "Get the two goblets by using your new hammer abilities!",
+              "subtasks": []
+            },
+            {
+              "id": "ra_40704",
+              "text": "Gold That IS Worth a Hill of Beans",
+              "done": false,
+              "raAchievementId": 40704,
+              "raDescription": "Get a Spike Badge from a Gold Beanie!",
+              "subtasks": []
+            },
+            {
+              "id": "ra_40705",
+              "text": "Wiggle Me This, Fatman!",
+              "done": true,
+              "raAchievementId": 40705,
+              "raDescription": "Defeat Wiggler in Chucklehuck Woods!",
+              "subtasks": []
+            },
+            {
+              "id": "ra_40706",
+              "text": "Cyberdyne Systems' Liquid-Joke Beverage",
+              "done": true,
+              "raAchievementId": 40706,
+              "raDescription": "Sentient soda has escaped, terminate with extreme prejudice.",
+              "subtasks": []
+            },
+            {
+              "id": "ra_40707",
+              "text": "Beanlets for Breakfast",
+              "done": false,
+              "raAchievementId": 40707,
+              "raDescription": "Help a dude out, get five beanlets for a Golden Mushroom.",
+              "subtasks": []
+            },
+            {
+              "id": "ra_40708",
+              "text": "Learning is Mario FUNdamentals",
+              "done": false,
+              "raAchievementId": 40708,
+              "raDescription": "Defeat Cackletta at Woohoo Hooniversity!",
+              "subtasks": []
+            },
+            {
+              "id": "ra_40709",
+              "text": "Learning is Bower",
+              "done": false,
+              "raAchievementId": 40709,
+              "raDescription": "Fight Popple and Rookie for the Beanstar!",
+              "subtasks": []
+            },
+            {
+              "id": "ra_40710",
+              "text": "This Hand of Mine Glows with an Awesome Power",
+              "done": false,
+              "raAchievementId": 40710,
+              "raDescription": "Grab both of the hand-abilities for each brother.",
+              "subtasks": []
+            },
+            {
+              "id": "ra_40711",
+              "text": "Clean-Up on Aisle Del-Beano",
+              "done": false,
+              "raAchievementId": 40711,
+              "raDescription": "Defeat Mom Piranha at the airport!",
+              "subtasks": []
+            },
+            {
+              "id": "ra_40712",
+              "text": "Burying Treesure in the Desert",
+              "done": false,
+              "raAchievementId": 40712,
+              "raDescription": "Defeat Trunkle at Teehee Valley, then follow Peach into Little Fungitown.",
+              "subtasks": []
+            },
+            {
+              "id": "ra_40713",
+              "text": "Luigi's Adventure Quest",
+              "done": false,
+              "raAchievementId": 40713,
+              "raDescription": "Get the Crabbie Grass from Luigi's Quest",
+              "subtasks": []
+            },
+            {
+              "id": "ra_40714",
+              "text": "I Swear That Never Happens",
+              "done": false,
+              "raAchievementId": 40714,
+              "raDescription": "Grab the pearls for new upgraded hand abilities.",
+              "subtasks": []
+            },
+            {
+              "id": "ra_40715",
+              "text": "Theriouthly You Guyth, Thop Ith",
+              "done": false,
+              "raAchievementId": 40715,
+              "raDescription": "Defeat Hermie III for the Beanstar Piece!",
+              "subtasks": []
+            },
+            {
+              "id": "ra_40716",
+              "text": "Good Fella(s)",
+              "done": false,
+              "raAchievementId": 40716,
+              "raDescription": "Defeat Popple in Chucklehuck Woods!",
+              "subtasks": []
+            },
+            {
+              "id": "ra_40717",
+              "text": "Make Neon Eggs, Throw Neon Eggs",
+              "done": false,
+              "raAchievementId": 40717,
+              "raDescription": "Collect all seven neon eggs to get a beanstar piece.",
+              "subtasks": []
+            },
+            {
+              "id": "ra_40718",
+              "text": "What Not to Care",
+              "done": false,
+              "raAchievementId": 40718,
+              "raDescription": "Get the Beanstar Piece from Harhall.",
+              "subtasks": []
+            },
+            {
+              "id": "ra_40719",
+              "text": "No Receipt, No Refund",
+              "done": false,
+              "raAchievementId": 40719,
+              "raDescription": "Create every design and receive Harhall's Pants.",
+              "subtasks": []
+            },
+            {
+              "id": "ra_40720",
+              "text": "Super Badge Bros, Rock-Rock ON!",
+              "done": false,
+              "raAchievementId": 40720,
+              "raDescription": "Get the Bros Rock Badge by finding all of the Beanstones.",
+              "subtasks": []
+            },
+            {
+              "id": "ra_40721",
+              "text": "Super 'Stache Brothers the Arcade Game",
+              "done": false,
+              "raAchievementId": 40721,
+              "raDescription": "Get over 480 points in Star 'Stache Smash.",
+              "subtasks": []
+            },
+            {
+              "id": "ra_40722",
+              "text": "A Monkey of Barrels",
+              "done": false,
+              "raAchievementId": 40722,
+              "raDescription": "Get 20 points in the mini-game Barrel. (Arcade or Boat before it sails away, NO PRACTICE.)",
+              "subtasks": []
+            },
+            {
+              "id": "ra_40723",
+              "text": "Surfin' BBK",
+              "done": false,
+              "raAchievementId": 40723,
+              "raDescription": "Win the Casual Corals by competing in the surfing mini-game.",
+              "subtasks": []
+            },
+            {
+              "id": "ra_40724",
+              "text": "Fortress of Serious-tude",
+              "done": false,
+              "raAchievementId": 40724,
+              "raDescription": "Defeat Jojora and her friend at Joke's End.",
+              "subtasks": []
+            },
+            {
+              "id": "ra_40725",
+              "text": "My Cousin Vinny-essa",
+              "done": false,
+              "raAchievementId": 40725,
+              "raDescription": "Defeat Popple and Birdo in Teehee Valley.",
+              "subtasks": []
+            },
+            {
+              "id": "ra_40726",
+              "text": "Iggy's Dizzy Lava Land",
+              "done": false,
+              "raAchievementId": 40726,
+              "raDescription": "Defeat Iggy Koopa at Bowser's Castle!",
+              "subtasks": []
+            },
+            {
+              "id": "ra_40727",
+              "text": "Battle on the Morton Bridge",
+              "done": false,
+              "raAchievementId": 40727,
+              "raDescription": "Defeat Morton Koopa Jr. at Bowser's Castle!",
+              "subtasks": []
+            },
+            {
+              "id": "ra_40728",
+              "text": "THIS IS A VOLCANO",
+              "done": false,
+              "raAchievementId": 40728,
+              "raDescription": "Defeat Lemmy Koopa at Bowser's Castle!",
+              "subtasks": []
+            },
+            {
+              "id": "ra_40729",
+              "text": "Ludwig's Last Performance",
+              "done": false,
+              "raAchievementId": 40729,
+              "raDescription": "Defeat Ludwig von Koopa at Bowser's Castle!",
+              "subtasks": []
+            },
+            {
+              "id": "ra_40730",
+              "text": "This Isn't Your Castle, Roy!",
+              "done": false,
+              "raAchievementId": 40730,
+              "raDescription": "Defeat Roy Koopa at Bowser's Castle!",
+              "subtasks": []
+            },
+            {
+              "id": "ra_40731",
+              "text": "Whack-A-Wendy",
+              "done": false,
+              "raAchievementId": 40731,
+              "raDescription": "Defeat Wendy O. Koopa at Bowser's Castle!",
+              "subtasks": []
+            },
+            {
+              "id": "ra_40732",
+              "text": "Larry's Last Match of Color TV-Game 6",
+              "done": false,
+              "raAchievementId": 40732,
+              "raDescription": "Defeat Larry Koopa at Bowser's Castle!",
+              "subtasks": []
+            },
+            {
+              "id": "ra_40733",
+              "text": "Colonel Mustard's Last Stand",
+              "done": false,
+              "raAchievementId": 40733,
+              "raDescription": "Defeat Fawful for the last time!",
+              "subtasks": []
+            },
+            {
+              "id": "ra_40734",
+              "text": "You're a SUPERSTAR!",
+              "done": false,
+              "raAchievementId": 40734,
+              "raDescription": "Escape Bowser's Castle after defeating Cackletta!",
+              "subtasks": []
+            },
+            {
+              "id": "ra_40735",
+              "text": "Do You Have Our Greed-is-Good Rewards Card?",
+              "done": true,
+              "raAchievementId": 40735,
+              "raDescription": "Get the Greed Wallet from Professor E. Gadd!",
+              "subtasks": []
+            },
+            {
+              "id": "ra_40736",
+              "text": "Check Your G-Diffusers for Bonus Reward Points",
+              "done": false,
+              "raAchievementId": 40736,
+              "raDescription": "Get the Bonus Ring from Professor E. Gadd!",
+              "subtasks": []
+            },
+            {
+              "id": "ra_40737",
+              "text": "Exciting Rewards on Your Next Visit",
+              "done": false,
+              "raAchievementId": 40737,
+              "raDescription": "Get the Excite Spring from Professor E. Gadd!",
+              "subtasks": []
+            },
+            {
+              "id": "ra_40738",
+              "text": "With Great Force Comes Great Reward Points",
+              "done": false,
+              "raAchievementId": 40738,
+              "raDescription": "Get the Great Force from Professor E. Gadd!",
+              "subtasks": []
+            },
+            {
+              "id": "ra_40739",
+              "text": "By Grabthar's Hammer ... What a Savings",
+              "done": false,
+              "raAchievementId": 40739,
+              "raDescription": "Get the Power Grip from Professor E. Gadd!",
+              "subtasks": []
+            },
+            {
+              "id": "ra_40740",
+              "text": "Business Members Receive Half-Off Next Purchase",
+              "done": false,
+              "raAchievementId": 40740,
+              "raDescription": "Get the Cobalt Necktie from Professor E. Gadd!",
+              "subtasks": []
+            },
+            {
+              "id": "ra_40741",
+              "text": "I'm Sorry, Your Reward Card Has EXPIRED",
+              "done": false,
+              "raAchievementId": 40741,
+              "raDescription": "Get the Gameboy Horror SP from Professor E. Gadd!",
+              "subtasks": []
+            },
+            {
+              "id": "ra_40742",
+              "text": "Taking Luigi's Milk Money",
+              "done": false,
+              "raAchievementId": 40742,
+              "raDescription": "Luigi's been holding out! Get 100 CONSECUTIVE coins from him! (Must have less than max coins)",
+              "subtasks": []
+            },
+            {
+              "id": "ra_40743",
+              "text": "Breakout the Salt",
+              "done": false,
+              "raAchievementId": 40743,
+              "raDescription": "Get at least 40 points in Chuckola Bounce.",
+              "subtasks": []
+            },
+            {
+              "id": "ra_40744",
+              "text": "I AM IRON PANTS",
+              "done": false,
+              "raAchievementId": 40744,
+              "raDescription": "Win the Iron Pants from a Celebrity Mole course.",
+              "subtasks": []
+            },
+            {
+              "id": "ra_40745",
+              "text": "Fwuffy Lamby Jammies",
+              "done": false,
+              "raAchievementId": 40745,
+              "raDescription": "Win the Wool Trousers from a Celebrity Mole course.",
+              "subtasks": []
+            },
+            {
+              "id": "ra_40746",
+              "text": "To the Literal High-Ends of the Earth",
+              "done": false,
+              "raAchievementId": 40746,
+              "raDescription": "Win the High-End Badge from a Celebrity Mole course.",
+              "subtasks": []
+            },
+            {
+              "id": "ra_40747",
+              "text": "He's A Sweet Soul Brother",
+              "done": false,
+              "raAchievementId": 40747,
+              "raDescription": "Gift Hermie the III with Spangle for the Soulful Badge.",
+              "subtasks": []
+            },
+            {
+              "id": "ra_40748",
+              "text": "Plumber Ninja Thief Guy",
+              "done": false,
+              "raAchievementId": 40748,
+              "raDescription": "Get Secret Scroll 1 to unlock the \"Swing Brothers\" move.",
+              "subtasks": []
+            },
+            {
+              "id": "ra_40749",
+              "text": "Tornado, Hold Luigi",
+              "done": false,
+              "raAchievementId": 40749,
+              "raDescription": "Get Secret Scroll 2 to unlock the \"Cyclone Brothers\" move.",
+              "subtasks": []
+            },
+            {
+              "id": "ra_40750",
+              "text": "Worst.  Escape Sequence.  EVER!",
+              "done": false,
+              "raAchievementId": 40750,
+              "raDescription": "Escape Bowser's Castle within 50 seconds! Touch Blablanadon so \"Speak\" appears.",
+              "subtasks": []
+            },
+            {
+              "id": "ra_40751",
+              "text": "CANNONBALLLLL!!",
+              "done": false,
+              "raAchievementId": 40751,
+              "raDescription": "Upgrade Splash Brothers to ADVANCE Level!",
+              "subtasks": []
+            },
+            {
+              "id": "ra_40752",
+              "text": "Swing Your Brother, Round'n'Round",
+              "done": false,
+              "raAchievementId": 40752,
+              "raDescription": "Upgrade Swing Brothers to ADVANCE Level!",
+              "subtasks": []
+            },
+            {
+              "id": "ra_40753",
+              "text": "GET TO DAH CHOPPA BRAHZAHs",
+              "done": false,
+              "raAchievementId": 40753,
+              "raDescription": "Upgrade Chopper Brothers to ADVANCE Level!",
+              "subtasks": []
+            },
+            {
+              "id": "ra_40754",
+              "text": "They Wake Up the Next Day and They're on Fire",
+              "done": false,
+              "raAchievementId": 40754,
+              "raDescription": "Upgrade Fire Brothers to ADVANCE Level!",
+              "subtasks": []
+            },
+            {
+              "id": "ra_40755",
+              "text": "Bouncing Here and There and Everywhere",
+              "done": true,
+              "raAchievementId": 40755,
+              "raDescription": "Upgrade Bounce Brothers to ADVANCE Level!",
+              "subtasks": []
+            },
+            {
+              "id": "ra_40756",
+              "text": "The Whack-Attack is Back, Jack!",
+              "done": false,
+              "raAchievementId": 40756,
+              "raDescription": "Upgrade Knockback Brothers to ADVANCE Level!",
+              "subtasks": []
+            },
+            {
+              "id": "ra_40757",
+              "text": "Gone With the Wimp",
+              "done": false,
+              "raAchievementId": 40757,
+              "raDescription": "Upgrade Cyclone Brothers to ADVANCE Level!",
+              "subtasks": []
+            },
+            {
+              "id": "ra_40758",
+              "text": "Electricity? Careful There! Or It'll Toast Your Eyeballs!",
+              "done": false,
+              "raAchievementId": 40758,
+              "raDescription": "Upgrade Thunder Brothers to ADVANCE Level!",
+              "subtasks": []
+            },
+            {
+              "id": "ra_469970",
+              "text": "Hoo Has Celebrity Status",
+              "done": false,
+              "raAchievementId": 469970,
+              "raDescription": "Receive a Golden Mushroom and a Max Nut as a gift from a Celebrity Mole in Hoohoo Village and Mountain Base",
+              "subtasks": []
+            },
+            {
+              "id": "ra_469971",
+              "text": "Rewards in the Outskirts",
+              "done": false,
+              "raAchievementId": 469971,
+              "raDescription": "Receive a Golden Mushroom, 1-Up Mushroom, and Red and Green Peppers as a gift from Celebrity Moles in BeanBean Outskirts",
+              "subtasks": []
+            },
+            {
+              "id": "ra_469972",
+              "text": "Mole O-hoy",
+              "done": false,
+              "raAchievementId": 469972,
+              "raDescription": "Receive a 1-Up Super as a gift from a Celebrity Mole in Oho Ocean",
+              "subtasks": []
+            },
+            {
+              "id": "ra_469973",
+              "text": "Peppers to Heat Up the Cold",
+              "done": false,
+              "raAchievementId": 469973,
+              "raDescription": "Receive Red and Green Peppers as a gift from a Celebrity Mole in Joke's End",
+              "subtasks": []
+            },
+            {
+              "id": "ra_469974",
+              "text": "Extra Hot Extra Life",
+              "done": false,
+              "raAchievementId": 469974,
+              "raDescription": "Receive a 1-Up Super as a gift from a Celebrity Mole in Bowser's Castle",
+              "subtasks": []
+            },
+            {
+              "id": "ra_469975",
+              "text": "Mountains out of a Beanhole",
+              "done": false,
+              "raAchievementId": 469975,
+              "raDescription": "Collect every bean in the beanholes of Hoohoo Village, Mountain, and Mountain Base",
+              "subtasks": []
+            },
+            {
+              "id": "ra_469976",
+              "text": "Bean Bonanza",
+              "done": false,
+              "raAchievementId": 469976,
+              "raDescription": "Collect every bean in the beanholes of Beanbean Outskirts",
+              "subtasks": []
+            },
+            {
+              "id": "ra_469977",
+              "text": "Lost Beans",
+              "done": false,
+              "raAchievementId": 469977,
+              "raDescription": "Collect every bean in the beanholes of Chateau de Chucklehuck and Chucklehuck Woods (Not counting required beans)",
+              "subtasks": []
+            },
+            {
+              "id": "ra_469978",
+              "text": "Give me a B! Give me an EAN!",
+              "done": false,
+              "raAchievementId": 469978,
+              "raDescription": "Collect every bean in the beanholes of Woohoo Hooniversity",
+              "subtasks": []
+            },
+            {
+              "id": "ra_469979",
+              "text": "Somewhere Beyond the Bean",
+              "done": false,
+              "raAchievementId": 469979,
+              "raDescription": "Collect every bean in the beanholes of Oho Oasis and the Seabed",
+              "subtasks": []
+            },
+            {
+              "id": "ra_469980",
+              "text": "Air B'n'Bean",
+              "done": false,
+              "raAchievementId": 469980,
+              "raDescription": "Collect every bean in the beanholes of the Beanbean Airport",
+              "subtasks": []
+            },
+            {
+              "id": "ra_469981",
+              "text": "Beanrudo Valley",
+              "done": false,
+              "raAchievementId": 469981,
+              "raDescription": "Collect every bean in the beanholes of Teehee Valley",
+              "subtasks": []
+            },
+            {
+              "id": "ra_469982",
+              "text": "Washed Up Beans",
+              "done": false,
+              "raAchievementId": 469982,
+              "raDescription": "Collect every bean in the beanholes of Gwarhar Lagoon",
+              "subtasks": []
+            },
+            {
+              "id": "ra_469983",
+              "text": "The Bean is the Punchline",
+              "done": false,
+              "raAchievementId": 469983,
+              "raDescription": "Collect every bean in the beanholes of Joke's End",
+              "subtasks": []
+            },
+            {
+              "id": "ra_469984",
+              "text": "The Final Beans",
+              "done": false,
+              "raAchievementId": 469984,
+              "raDescription": "Collect every bean in the beanholes of Bowser's Castle",
+              "subtasks": []
+            }
+          ]
         },
         {
           "id": "t_1774112665562",
@@ -2323,5 +2984,7 @@
     }
   ],
   "heldNodes": [],
-  "moodLog": []
+  "moodLog": [],
+  "raUser": "IceCubeMaker",
+  "raKey": "OvI0vNKUlmYtxHBkHJ6c6qoo6WZFiFHQ"
 }
