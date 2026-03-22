@@ -2121,6 +2121,75 @@
           "tracked": true
         },
         {
+          "id": "t_1774216050348",
+          "text": "Ace Attorney Chronicles",
+          "done": false,
+          "subtasks": [
+            {
+              "id": "steam_ITEM_007",
+              "text": "Susato's Success",
+              "done": true,
+              "steamApiname": "ITEM_007",
+              "ra_desc": "For completion of Episode 1 of The Great Ace Attorney 2: Resolve from its opening chapter",
+              "subtasks": [],
+              "tracked": true
+            },
+            {
+              "id": "steam_ITEM_008",
+              "text": "The Key of Knowledge",
+              "done": false,
+              "steamApiname": "ITEM_008",
+              "ra_desc": "For completion of Episode 2 of The Great Ace Attorney 2: Resolve from its opening chapter",
+              "subtasks": [],
+              "tracked": true
+            },
+            {
+              "id": "steam_ITEM_009",
+              "text": "The Demasking",
+              "done": false,
+              "steamApiname": "ITEM_009",
+              "ra_desc": "For completion of Episode 3 of The Great Ace Attorney 2: Resolve from its opening chapter",
+              "subtasks": [],
+              "tracked": true
+            },
+            {
+              "id": "steam_ITEM_010",
+              "text": "The Legendary Pair",
+              "done": false,
+              "steamApiname": "ITEM_010",
+              "ra_desc": "For completion of Episode 4 of The Great Ace Attorney 2: Resolve from its opening chapter",
+              "subtasks": [],
+              "tracked": true
+            },
+            {
+              "id": "steam_ITEM_011",
+              "text": "The Risen Resolve",
+              "done": false,
+              "steamApiname": "ITEM_011",
+              "ra_desc": "For completion of the Final Chapter of The Great Ace Attorney 2: Resolve from its opening chapter",
+              "subtasks": [],
+              "tracked": true
+            }
+          ],
+          "dueDate": null,
+          "tracked": true,
+          "connections": [
+            {
+              "type": "steam",
+              "appId": "1158850",
+              "gameTitle": "The Great Ace Attorney Chronicles",
+              "selectedApinames": [
+                "ITEM_007",
+                "ITEM_008",
+                "ITEM_009",
+                "ITEM_010",
+                "ITEM_011"
+              ],
+              "syncedAt": "2026-03-22T21:49:13.029Z"
+            }
+          ]
+        },
+        {
           "id": "t_1774208412363",
           "text": "Super Mariomon",
           "done": false,
@@ -2568,6 +2637,176 @@
           ]
         },
         {
+          "id": "t_1774112898090",
+          "text": "Expedition 33",
+          "done": false,
+          "subtasks": [
+            {
+              "id": "steam_LUMIERE",
+              "text": "Lumière",
+              "done": true,
+              "steamApiname": "LUMIERE",
+              "ra_desc": "Embark on the Expedition.",
+              "subtasks": [],
+              "tracked": true
+            },
+            {
+              "id": "steam_SPRING_MEADOWS",
+              "text": "Spring Meadows",
+              "done": true,
+              "steamApiname": "SPRING_MEADOWS",
+              "ra_desc": "",
+              "subtasks": [],
+              "tracked": true
+            },
+            {
+              "id": "steam_FLYING_WATERS",
+              "text": "Flying Waters",
+              "done": false,
+              "steamApiname": "FLYING_WATERS",
+              "ra_desc": "",
+              "subtasks": [],
+              "tracked": true
+            },
+            {
+              "id": "steam_ANCIENT_SANCTUARY",
+              "text": "Ancient Sanctuary",
+              "done": false,
+              "steamApiname": "ANCIENT_SANCTUARY",
+              "ra_desc": "",
+              "subtasks": [],
+              "tracked": true
+            },
+            {
+              "id": "steam_GESTRAL_VILLAGE",
+              "text": "Gestral Village",
+              "done": false,
+              "steamApiname": "GESTRAL_VILLAGE",
+              "ra_desc": "",
+              "subtasks": [],
+              "tracked": true
+            },
+            {
+              "id": "steam_ESQUIES_NEST",
+              "text": "Esquie's Nest",
+              "done": false,
+              "steamApiname": "ESQUIES_NEST",
+              "ra_desc": "",
+              "subtasks": [],
+              "tracked": true
+            },
+            {
+              "id": "steam_STONE_WAVE_CLIFFS",
+              "text": "Stone Wave Cliffs",
+              "done": false,
+              "steamApiname": "STONE_WAVE_CLIFFS",
+              "ra_desc": "",
+              "subtasks": [],
+              "tracked": true
+            },
+            {
+              "id": "steam_FORGOTTEN_BATTLEFIELD",
+              "text": "Forgotten Battlefield",
+              "done": false,
+              "steamApiname": "FORGOTTEN_BATTLEFIELD",
+              "ra_desc": "",
+              "subtasks": [],
+              "tracked": true
+            },
+            {
+              "id": "steam_GRANDIS_STATION",
+              "text": "Monoco's Station",
+              "done": false,
+              "steamApiname": "GRANDIS_STATION",
+              "ra_desc": "",
+              "subtasks": [],
+              "tracked": true
+            },
+            {
+              "id": "steam_OLD_LUMIERE",
+              "text": "Old Lumière",
+              "done": false,
+              "steamApiname": "OLD_LUMIERE",
+              "ra_desc": "",
+              "subtasks": [],
+              "tracked": true
+            },
+            {
+              "id": "steam_FIRST_AXON",
+              "text": "First Axon",
+              "done": false,
+              "steamApiname": "FIRST_AXON",
+              "ra_desc": "",
+              "subtasks": [],
+              "tracked": true
+            },
+            {
+              "id": "steam_SECOND_AXON",
+              "text": "Second Axon",
+              "done": false,
+              "steamApiname": "SECOND_AXON",
+              "ra_desc": "",
+              "subtasks": [],
+              "tracked": true
+            },
+            {
+              "id": "steam_PAINTRESS",
+              "text": "Paintress",
+              "done": false,
+              "steamApiname": "PAINTRESS",
+              "ra_desc": "",
+              "subtasks": [],
+              "tracked": true
+            },
+            {
+              "id": "steam_SIMON",
+              "text": "Peace At Last",
+              "done": false,
+              "steamApiname": "SIMON",
+              "ra_desc": "",
+              "subtasks": [],
+              "tracked": true
+            },
+            {
+              "id": "steam_ALL_CHARACTERS",
+              "text": "Expedition 33",
+              "done": false,
+              "steamApiname": "ALL_CHARACTERS",
+              "ra_desc": "",
+              "subtasks": [],
+              "tracked": true
+            }
+          ],
+          "dueDate": null,
+          "deps": [],
+          "tracked": true,
+          "connections": [
+            {
+              "type": "steam",
+              "appId": "1903340",
+              "gameTitle": "Clair Obscur: Expedition 33",
+              "selectedApinames": [
+                "LUMIERE",
+                "SPRING_MEADOWS",
+                "ESQUIES_NEST",
+                "FLYING_WATERS",
+                "ANCIENT_SANCTUARY",
+                "GESTRAL_VILLAGE",
+                "STONE_WAVE_CLIFFS",
+                "FORGOTTEN_BATTLEFIELD",
+                "ALL_CHARACTERS",
+                "GRANDIS_STATION",
+                "OLD_LUMIERE",
+                "FIRST_AXON",
+                "SECOND_AXON",
+                "SIMON",
+                "PAINTRESS"
+              ],
+              "syncedAt": "2026-03-22T21:39:04.083Z"
+            }
+          ]
+        },
+        {
           "id": "t_1774112777251",
           "text": "Hades II",
           "done": false,
@@ -2578,15 +2817,6 @@
         {
           "id": "t_1774112886076",
           "text": "Disco Elysium",
-          "done": true,
-          "subtasks": [],
-          "dueDate": null,
-          "deps": [],
-          "doneAt": "2026-03-22T21:21:42.849Z"
-        },
-        {
-          "id": "t_1774112898090",
-          "text": "Expedition 33",
           "done": false,
           "subtasks": [],
           "dueDate": null,
@@ -3473,5 +3703,6 @@
   "raUser": "IceCubeMaker",
   "raKey": "OvI0vNKUlmYtxHBkHJ6c6qoo6WZFiFHQ",
   "steamId": "76561199199995485",
-  "steamKey": "DA5BD50A5D69B3708C567E6FEC84705C"
+  "steamKey": "DA5BD50A5D69B3708C567E6FEC84705C",
+  "timer": null
 }
