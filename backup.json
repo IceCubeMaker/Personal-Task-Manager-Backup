@@ -208,14 +208,14 @@
           "type": "end",
           "text": "End",
           "x": 144,
-          "y": 648
+          "y": 816
         },
         "n_1774089104265": {
           "id": "n_1774089104265",
           "type": "flowchart",
           "text": "Pomodoro Break",
           "next": "n_1774089390376",
-          "x": 1056,
+          "x": 888,
           "y": 696,
           "chartRef": "chart_1774089091794"
         },
@@ -248,7 +248,7 @@
           "text": "Is it after 18:00?",
           "x": 288,
           "y": 456,
-          "yes": "end",
+          "yes": "n_1774193105692",
           "no": "n_1774091904086_d1774128477685",
           "autoType": "time",
           "timeA": "18:00"
@@ -258,7 +258,7 @@
           "type": "tasklist",
           "text": "Pomodoro Studying",
           "next": "n_1774089104265",
-          "x": 1056,
+          "x": 888,
           "y": 552,
           "duration": 2700,
           "listId": "list_1774093880028"
@@ -325,6 +325,15 @@
           "x": -144,
           "y": -72,
           "trackingId": null
+        },
+        "n_1774193105692": {
+          "id": "n_1774193105692",
+          "type": "condition",
+          "text": "Do you want to continue?",
+          "x": 288,
+          "y": 576,
+          "yes": "n_1774091904086_d1774128477685",
+          "no": "end"
         }
       }
     },
