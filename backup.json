@@ -1832,68 +1832,6 @@
       "sort": "manual",
       "tasks": [
         {
-          "id": "t_1774112665562",
-          "text": "Metaphor ReFantazio",
-          "done": false,
-          "subtasks": [],
-          "dueDate": null,
-          "deps": []
-        },
-        {
-          "id": "t_1774112905916",
-          "text": "Cassette Beasts",
-          "done": false,
-          "subtasks": [],
-          "dueDate": null,
-          "deps": []
-        },
-        {
-          "id": "t_1774112777251",
-          "text": "Hades II",
-          "done": false,
-          "subtasks": [],
-          "dueDate": null,
-          "deps": []
-        },
-        {
-          "id": "t_1774112886076",
-          "text": "Disco Elysium",
-          "done": false,
-          "subtasks": [],
-          "dueDate": null,
-          "deps": []
-        },
-        {
-          "id": "t_1774112898090",
-          "text": "Expedition 33",
-          "done": false,
-          "subtasks": [],
-          "dueDate": null,
-          "deps": []
-        },
-        {
-          "id": "t_1774112975960",
-          "text": "Red Dead Redemption",
-          "done": false,
-          "subtasks": [],
-          "dueDate": null,
-          "deps": []
-        },
-        {
-          "id": "t_1774146186797",
-          "text": "Mario and Luigi Dream Team Bros",
-          "done": false,
-          "subtasks": [],
-          "dueDate": null
-        },
-        {
-          "id": "t_1774146195888",
-          "text": "Mario and Luigi Partners in Time",
-          "done": false,
-          "subtasks": [],
-          "dueDate": null
-        },
-        {
           "id": "t_1774207253156",
           "text": "Super Metroid",
           "done": false,
@@ -1998,7 +1936,7 @@
               "gameTitle": "Super Metroid",
               "gameImage": "https://media.retroachievements.org/Badge//Images/060989.png",
               "filter": "progression",
-              "syncedAt": "2026-03-22T19:21:15.963Z"
+              "syncedAt": "2026-03-22T19:38:22.922Z"
             }
           ]
         },
@@ -2008,101 +1946,399 @@
           "done": false,
           "subtasks": [
             {
-              "id": "ra_343",
-              "text": "Why Can't Metroid Crawl?",
-              "done": false,
-              "raAchievementId": 343,
-              "raDescription": "Obtain the Morphing Ball ability",
+              "id": "ra_40691",
+              "text": "Cruisin for a Bruisin",
+              "done": true,
+              "raAchievementId": 40691,
+              "raDescription": "Defeat Fawful on Koopa Cruiser.",
               "subtasks": [],
               "tracked": true
             },
             {
-              "id": "ra_344",
-              "text": "Packing a Punch",
-              "done": false,
-              "raAchievementId": 344,
-              "raDescription": "Obtain a missile pack",
+              "id": "ra_40695",
+              "text": "Tolstar Recall",
+              "done": true,
+              "raAchievementId": 40695,
+              "raDescription": "Defeat the tollbooth tyrant, Tolstar!",
               "subtasks": [],
               "tracked": true
             },
             {
-              "id": "ra_1824",
-              "text": "Bomb Torizo",
-              "done": false,
-              "raAchievementId": 1824,
-              "raDescription": "Defeat the Bomb Torizo",
+              "id": "ra_40696",
+              "text": "Making a Molehill out of a Mountain",
+              "done": true,
+              "raAchievementId": 40696,
+              "raDescription": "Crush the Hoohoo Mountain midboss, Hoohooros!",
               "subtasks": [],
               "tracked": true
             },
             {
-              "id": "ra_1825",
-              "text": "I'm Super, Thanks for Asking",
-              "done": false,
-              "raAchievementId": 1825,
-              "raDescription": "Obtain Super Missiles",
+              "id": "ra_40697",
+              "text": "ROCK THE DRAGON!",
+              "done": true,
+              "raAchievementId": 40697,
+              "raDescription": "Defeat Dragohoho at the top of Hoohoo Mountain!",
               "subtasks": [],
               "tracked": true
             },
             {
-              "id": "ra_1839",
-              "text": "Power Bomb",
+              "id": "ra_40701",
+              "text": "You Won't Like Me When I'm Queenie",
               "done": false,
-              "raAchievementId": 1839,
-              "raDescription": "Obtain Power Bombs",
+              "raAchievementId": 40701,
+              "raDescription": "Defeat the hulking-mad Queen Bean!",
               "subtasks": [],
               "tracked": true
             },
             {
-              "id": "ra_1856",
-              "text": "Phantomended",
+              "id": "ra_40702",
+              "text": "WE'RE Shakin' Up the Soda Here Now, See?",
               "done": false,
-              "raAchievementId": 1856,
-              "raDescription": "Defeat Phantoon and restore the ship's power",
+              "raAchievementId": 40702,
+              "raDescription": "Defeat Popple and Rookie at Chateau de Chucklehuck!",
               "subtasks": [],
               "tracked": true
             },
             {
-              "id": "ra_1863",
-              "text": "Abyss Dweller",
-              "done": false,
-              "raAchievementId": 1863,
-              "raDescription": "Defeat Botwoon",
+              "id": "ra_40705",
+              "text": "Wiggle Me This, Fatman!",
+              "done": true,
+              "raAchievementId": 40705,
+              "raDescription": "Defeat Wiggler in Chucklehuck Woods!",
               "subtasks": [],
               "tracked": true
             },
             {
-              "id": "ra_1872",
-              "text": "Revenge",
-              "done": false,
-              "raAchievementId": 1872,
-              "raDescription": "Defeat Ridley",
+              "id": "ra_40706",
+              "text": "Cyberdyne Systems' Liquid-Joke Beverage",
+              "done": true,
+              "raAchievementId": 40706,
+              "raDescription": "Sentient soda has escaped, terminate with extreme prejudice.",
               "subtasks": [],
               "tracked": true
             },
             {
-              "id": "ra_1873",
-              "text": "Break the Seal",
+              "id": "ra_40708",
+              "text": "Learning is Mario FUNdamentals",
               "done": false,
-              "raAchievementId": 1873,
-              "raDescription": "Find the hidden entrance to Tourian",
+              "raAchievementId": 40708,
+              "raDescription": "Defeat Cackletta at Woohoo Hooniversity!",
               "subtasks": [],
               "tracked": true
             },
             {
-              "id": "ra_1875",
-              "text": "Braindead",
+              "id": "ra_40709",
+              "text": "Learning is Bower",
               "done": false,
-              "raAchievementId": 1875,
-              "raDescription": "Defeat Mother Brain",
+              "raAchievementId": 40709,
+              "raDescription": "Fight Popple and Rookie for the Beanstar!",
               "subtasks": [],
               "tracked": true
             },
             {
-              "id": "ra_1881",
-              "text": "Mission Complete",
+              "id": "ra_40710",
+              "text": "This Hand of Mine Glows with an Awesome Power",
               "done": false,
-              "raAchievementId": 1881,
-              "raDescription": "Escape planet Zebes",
+              "raAchievementId": 40710,
+              "raDescription": "Grab both of the hand-abilities for each brother.",
+              "subtasks": [],
+              "tracked": true
+            },
+            {
+              "id": "ra_40711",
+              "text": "Clean-Up on Aisle Del-Beano",
+              "done": false,
+              "raAchievementId": 40711,
+              "raDescription": "Defeat Mom Piranha at the airport!",
+              "subtasks": [],
+              "tracked": true
+            },
+            {
+              "id": "ra_40712",
+              "text": "Burying Treesure in the Desert",
+              "done": false,
+              "raAchievementId": 40712,
+              "raDescription": "Defeat Trunkle at Teehee Valley, then follow Peach into Little Fungitown.",
+              "subtasks": [],
+              "tracked": true
+            },
+            {
+              "id": "ra_40713",
+              "text": "Luigi's Adventure Quest",
+              "done": false,
+              "raAchievementId": 40713,
+              "raDescription": "Get the Crabbie Grass from Luigi's Quest",
+              "subtasks": [],
+              "tracked": true
+            },
+            {
+              "id": "ra_40714",
+              "text": "I Swear That Never Happens",
+              "done": false,
+              "raAchievementId": 40714,
+              "raDescription": "Grab the pearls for new upgraded hand abilities.",
+              "subtasks": [],
+              "tracked": true
+            },
+            {
+              "id": "ra_40715",
+              "text": "Theriouthly You Guyth, Thop Ith",
+              "done": false,
+              "raAchievementId": 40715,
+              "raDescription": "Defeat Hermie III for the Beanstar Piece!",
+              "subtasks": [],
+              "tracked": true
+            },
+            {
+              "id": "ra_40716",
+              "text": "Good Fella(s)",
+              "done": false,
+              "raAchievementId": 40716,
+              "raDescription": "Defeat Popple in Chucklehuck Woods!",
+              "subtasks": [],
+              "tracked": true
+            },
+            {
+              "id": "ra_40717",
+              "text": "Make Neon Eggs, Throw Neon Eggs",
+              "done": false,
+              "raAchievementId": 40717,
+              "raDescription": "Collect all seven neon eggs to get a beanstar piece.",
+              "subtasks": [],
+              "tracked": true
+            },
+            {
+              "id": "ra_40718",
+              "text": "What Not to Care",
+              "done": false,
+              "raAchievementId": 40718,
+              "raDescription": "Get the Beanstar Piece from Harhall.",
+              "subtasks": [],
+              "tracked": true
+            },
+            {
+              "id": "ra_40724",
+              "text": "Fortress of Serious-tude",
+              "done": false,
+              "raAchievementId": 40724,
+              "raDescription": "Defeat Jojora and her friend at Joke's End.",
+              "subtasks": [],
+              "tracked": true
+            },
+            {
+              "id": "ra_40725",
+              "text": "My Cousin Vinny-essa",
+              "done": false,
+              "raAchievementId": 40725,
+              "raDescription": "Defeat Popple and Birdo in Teehee Valley.",
+              "subtasks": [],
+              "tracked": true
+            },
+            {
+              "id": "ra_40726",
+              "text": "Iggy's Dizzy Lava Land",
+              "done": false,
+              "raAchievementId": 40726,
+              "raDescription": "Defeat Iggy Koopa at Bowser's Castle!",
+              "subtasks": [],
+              "tracked": true
+            },
+            {
+              "id": "ra_40727",
+              "text": "Battle on the Morton Bridge",
+              "done": false,
+              "raAchievementId": 40727,
+              "raDescription": "Defeat Morton Koopa Jr. at Bowser's Castle!",
+              "subtasks": [],
+              "tracked": true
+            },
+            {
+              "id": "ra_40728",
+              "text": "THIS IS A VOLCANO",
+              "done": false,
+              "raAchievementId": 40728,
+              "raDescription": "Defeat Lemmy Koopa at Bowser's Castle!",
+              "subtasks": [],
+              "tracked": true
+            },
+            {
+              "id": "ra_40729",
+              "text": "Ludwig's Last Performance",
+              "done": false,
+              "raAchievementId": 40729,
+              "raDescription": "Defeat Ludwig von Koopa at Bowser's Castle!",
+              "subtasks": [],
+              "tracked": true
+            },
+            {
+              "id": "ra_40730",
+              "text": "This Isn't Your Castle, Roy!",
+              "done": false,
+              "raAchievementId": 40730,
+              "raDescription": "Defeat Roy Koopa at Bowser's Castle!",
+              "subtasks": [],
+              "tracked": true
+            },
+            {
+              "id": "ra_40731",
+              "text": "Whack-A-Wendy",
+              "done": false,
+              "raAchievementId": 40731,
+              "raDescription": "Defeat Wendy O. Koopa at Bowser's Castle!",
+              "subtasks": [],
+              "tracked": true
+            },
+            {
+              "id": "ra_40732",
+              "text": "Larry's Last Match of Color TV-Game 6",
+              "done": false,
+              "raAchievementId": 40732,
+              "raDescription": "Defeat Larry Koopa at Bowser's Castle!",
+              "subtasks": [],
+              "tracked": true
+            },
+            {
+              "id": "ra_40733",
+              "text": "Colonel Mustard's Last Stand",
+              "done": false,
+              "raAchievementId": 40733,
+              "raDescription": "Defeat Fawful for the last time!",
+              "subtasks": [],
+              "tracked": true
+            },
+            {
+              "id": "ra_40734",
+              "text": "You're a SUPERSTAR!",
+              "done": false,
+              "raAchievementId": 40734,
+              "raDescription": "Escape Bowser's Castle after defeating Cackletta!",
+              "subtasks": [],
+              "tracked": true
+            }
+          ],
+          "dueDate": null,
+          "connections": [
+            {
+              "type": "retroachievements",
+              "gameId": 771,
+              "gameTitle": "Mario & Luigi: Superstar Saga",
+              "gameImage": "https://media.retroachievements.org/Badge//Images/116411.png",
+              "filter": "story",
+              "syncedAt": "2026-03-22T19:51:17.581Z"
+            }
+          ],
+          "tracked": true
+        },
+        {
+          "id": "t_1774208412363",
+          "text": "Super Mariomon",
+          "done": false,
+          "subtasks": [
+            {
+              "id": "ra_510101",
+              "text": "That's Peachy",
+              "done": true,
+              "raAchievementId": 510101,
+              "raDescription": "Defeat Peach to earn the Mushroom Kingdom Power Star",
+              "subtasks": [],
+              "tracked": true
+            },
+            {
+              "id": "ra_511116",
+              "text": "Game, Set and Match",
+              "done": false,
+              "raAchievementId": 511116,
+              "raDescription": "Defeat Daisy to earn the Cloud Kingdom Power Star",
+              "subtasks": [],
+              "tracked": true
+            },
+            {
+              "id": "ra_511118",
+              "text": "Let's Dance the Night Away, Baby!",
+              "done": false,
+              "raAchievementId": 511118,
+              "raDescription": "Defeat Jimmy T. in Diamond City",
+              "subtasks": [],
+              "tracked": true
+            },
+            {
+              "id": "ra_511119",
+              "text": "Small Girl Takin' on the Big World",
+              "done": false,
+              "raAchievementId": 511119,
+              "raDescription": "Defeat Penny in Diamond City",
+              "subtasks": [],
+              "tracked": true
+            },
+            {
+              "id": "ra_511120",
+              "text": "Wario Gonna Lose",
+              "done": false,
+              "raAchievementId": 511120,
+              "raDescription": "Defeat Wario to earn the Diamond City Power Star",
+              "subtasks": [],
+              "tracked": true
+            },
+            {
+              "id": "ra_511121",
+              "text": "WAAAAAAAAAAAAH!",
+              "done": false,
+              "raAchievementId": 511121,
+              "raDescription": "Defeat Waluigi to earn the Casino Kingdom Power Star",
+              "subtasks": [],
+              "tracked": true
+            },
+            {
+              "id": "ra_511122",
+              "text": "The Leader of the Bunch",
+              "done": false,
+              "raAchievementId": 511122,
+              "raDescription": "Defeat Donkey Kong to earn the Kong Kingdom Power Star",
+              "subtasks": [],
+              "tracked": true
+            },
+            {
+              "id": "ra_511353",
+              "text": "Secret of the Tower",
+              "done": false,
+              "raAchievementId": 511353,
+              "raDescription": "Solve the puzzle to open the way to the tower",
+              "subtasks": [],
+              "tracked": true
+            },
+            {
+              "id": "ra_511356",
+              "text": "Jump Up, Super Star!",
+              "done": false,
+              "raAchievementId": 511356,
+              "raDescription": "Defeat Pauline to earn the Metro Kingdom Power Star",
+              "subtasks": [],
+              "tracked": true
+            },
+            {
+              "id": "ra_511358",
+              "text": "Beyond the Stars",
+              "done": false,
+              "raAchievementId": 511358,
+              "raDescription": "Defeat Rosalina to earn the Comet Observatory Power Star",
+              "subtasks": [],
+              "tracked": true
+            },
+            {
+              "id": "ra_511369",
+              "text": "So Long, King Bowser!",
+              "done": false,
+              "raAchievementId": 511369,
+              "raDescription": "Defeat Bowser to earn the Molten Kingdom Power Star",
+              "subtasks": [],
+              "tracked": true
+            },
+            {
+              "id": "ra_511375",
+              "text": "In the Final",
+              "done": false,
+              "raAchievementId": 511375,
+              "raDescription": "Defeat Mr. L to reach the Hall of Fame",
               "subtasks": [],
               "tracked": true
             }
@@ -2112,13 +2348,75 @@
           "connections": [
             {
               "type": "retroachievements",
-              "gameId": 236,
-              "gameTitle": "Super Metroid",
-              "gameImage": "https://media.retroachievements.org/Badge//Images/060989.png",
+              "gameId": 33398,
+              "gameTitle": "~Hack~ Super Mariomon",
+              "gameImage": "https://media.retroachievements.org/Badge//Images/110122.png",
               "filter": "story",
-              "syncedAt": "2026-03-22T19:23:36.534Z"
+              "syncedAt": "2026-03-22T19:40:21.143Z"
             }
           ]
+        },
+        {
+          "id": "t_1774112665562",
+          "text": "Metaphor ReFantazio",
+          "done": false,
+          "subtasks": [],
+          "dueDate": null,
+          "deps": []
+        },
+        {
+          "id": "t_1774112905916",
+          "text": "Cassette Beasts",
+          "done": false,
+          "subtasks": [],
+          "dueDate": null,
+          "deps": []
+        },
+        {
+          "id": "t_1774112777251",
+          "text": "Hades II",
+          "done": false,
+          "subtasks": [],
+          "dueDate": null,
+          "deps": []
+        },
+        {
+          "id": "t_1774112886076",
+          "text": "Disco Elysium",
+          "done": false,
+          "subtasks": [],
+          "dueDate": null,
+          "deps": []
+        },
+        {
+          "id": "t_1774112898090",
+          "text": "Expedition 33",
+          "done": false,
+          "subtasks": [],
+          "dueDate": null,
+          "deps": []
+        },
+        {
+          "id": "t_1774112975960",
+          "text": "Red Dead Redemption",
+          "done": false,
+          "subtasks": [],
+          "dueDate": null,
+          "deps": []
+        },
+        {
+          "id": "t_1774146186797",
+          "text": "Mario and Luigi Dream Team Bros",
+          "done": false,
+          "subtasks": [],
+          "dueDate": null
+        },
+        {
+          "id": "t_1774146195888",
+          "text": "Mario and Luigi Partners in Time",
+          "done": false,
+          "subtasks": [],
+          "dueDate": null
         }
       ],
       "categoryId": "cat_1774110746921",
