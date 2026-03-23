@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-03-23T01:56:40.235Z",
+  "savedAt": "2026-03-23T02:17:24.004Z",
   "charts": [
     {
       "id": "main",
@@ -1512,17 +1512,17 @@
           "subtasks": []
         },
         {
-          "id": "t_1774130266011",
-          "text": "add a check to take pant with me into the shopping routine",
-          "done": false,
-          "subtasks": []
-        },
-        {
           "id": "t_1774130661625",
           "text": "add checking the mailbox as a routine",
           "done": true,
           "subtasks": [],
           "doneAt": "2026-03-23T01:21:20.396Z"
+        },
+        {
+          "id": "t_1774130266011",
+          "text": "add a check to take pant with me into the shopping routine",
+          "done": false,
+          "subtasks": []
         },
         {
           "id": "t_1774177737902",
@@ -3705,6 +3705,14 @@
       "sort": "manual",
       "tasks": [
         {
+          "id": "t_1774123176759",
+          "text": "Fix bug where defining a task as a sub and dependent task, will cause the task to appear as an open sub and regular task, rather than a locked sub task",
+          "done": false,
+          "subtasks": [],
+          "dueDate": null,
+          "deps": []
+        },
+        {
           "id": "t_1774108545806",
           "text": "add a node that can create tasks inside a task list",
           "done": true,
@@ -3783,14 +3791,6 @@
           "dueDate": null,
           "deps": [],
           "doneAt": "2026-03-23T01:08:55.915Z"
-        },
-        {
-          "id": "t_1774123176759",
-          "text": "Fix bug where defining a task as a sub and dependent task, will cause the task to appear as an open sub and regular task, rather than a locked sub task",
-          "done": false,
-          "subtasks": [],
-          "dueDate": null,
-          "deps": []
         },
         {
           "id": "t_1774123749185",
