@@ -18,7 +18,7 @@
           "type": "end",
           "text": "End",
           "x": -984,
-          "y": 1584
+          "y": 1704
         },
         "n_1774089330906": {
           "id": "n_1774089330906",
@@ -70,7 +70,7 @@
           "text": "Turn off the PC",
           "next": "end",
           "x": -984,
-          "y": 1464,
+          "y": 1584,
           "trackingId": "n_1774113759035",
           "trackDaily": true
         },
@@ -80,7 +80,7 @@
           "text": "Evening Routine",
           "next": "n_1774144665712",
           "x": -984,
-          "y": 1224,
+          "y": 1344,
           "chartRef": "chart_1774114072987"
         },
         "n_1774128663055": {
@@ -177,7 +177,7 @@
           "type": "condition",
           "text": "Is the PC on?",
           "x": -984,
-          "y": 1344,
+          "y": 1464,
           "yes": "n_1774113759035",
           "no": "end"
         },
@@ -195,7 +195,7 @@
           "id": "n_1774202322107",
           "type": "flowchart",
           "text": "Dinner",
-          "next": "n_1774114150483",
+          "next": "n_1774223309105",
           "x": -984,
           "y": 1104
         },
@@ -206,7 +206,18 @@
           "x": -96,
           "y": 1104,
           "yes": "n_1774202322107",
-          "no": "n_1774114150483"
+          "no": "n_1774223309105"
+        },
+        "n_1774223309105": {
+          "id": "n_1774223309105",
+          "type": "anki",
+          "text": "Japanese Review",
+          "next": "n_1774114150483",
+          "x": -984,
+          "y": 1224,
+          "trackingId": null,
+          "ankiCount": 3,
+          "ankiDeck": "folder::folder_1774222482945"
         }
       },
       "groups": []
@@ -4069,9 +4080,10 @@
       "createdAt": "2026-03-22T23:09:21.750Z",
       "interval": 1,
       "easeFactor": 2.5,
-      "reps": 0,
+      "reps": 1,
       "lapses": 0,
-      "due": "2026-03-22"
+      "due": "2026-03-23",
+      "lastReviewed": "2026-03-22T23:57:31.949Z"
     },
     {
       "id": "card_1774220961750_7k0yftlz2f5",
@@ -4086,9 +4098,10 @@
       "createdAt": "2026-03-22T23:09:21.750Z",
       "interval": 1,
       "easeFactor": 2.5,
-      "reps": 0,
+      "reps": 1,
       "lapses": 0,
-      "due": "2026-03-22"
+      "due": "2026-03-23",
+      "lastReviewed": "2026-03-22T23:57:33.813Z"
     },
     {
       "id": "card_1774220961750_tb8sdkberol",
@@ -4103,9 +4116,10 @@
       "createdAt": "2026-03-22T23:09:21.750Z",
       "interval": 1,
       "easeFactor": 2.5,
-      "reps": 0,
+      "reps": 1,
       "lapses": 0,
-      "due": "2026-03-22"
+      "due": "2026-03-23",
+      "lastReviewed": "2026-03-22T23:57:35.194Z"
     },
     {
       "id": "card_1774220961750_nlwfx6t13qp",
@@ -4120,9 +4134,10 @@
       "createdAt": "2026-03-22T23:09:21.750Z",
       "interval": 1,
       "easeFactor": 2.5,
-      "reps": 0,
+      "reps": 1,
       "lapses": 0,
-      "due": "2026-03-22"
+      "due": "2026-03-23",
+      "lastReviewed": "2026-03-22T23:57:37.487Z"
     },
     {
       "id": "card_1774220961750_cp15ev9rlzi",
@@ -4137,9 +4152,10 @@
       "createdAt": "2026-03-22T23:09:21.750Z",
       "interval": 1,
       "easeFactor": 2.5,
-      "reps": 0,
+      "reps": 1,
       "lapses": 0,
-      "due": "2026-03-22"
+      "due": "2026-03-23",
+      "lastReviewed": "2026-03-22T23:57:39.011Z"
     },
     {
       "id": "card_1774220961750_p7ipu8nkd7",
@@ -4154,9 +4170,10 @@
       "createdAt": "2026-03-22T23:09:21.750Z",
       "interval": 1,
       "easeFactor": 2.5,
-      "reps": 0,
+      "reps": 1,
       "lapses": 0,
-      "due": "2026-03-22"
+      "due": "2026-03-23",
+      "lastReviewed": "2026-03-22T23:57:40.917Z"
     },
     {
       "id": "card_1774220961750_kvmeh813rkg",
@@ -4171,9 +4188,10 @@
       "createdAt": "2026-03-22T23:09:21.750Z",
       "interval": 1,
       "easeFactor": 2.5,
-      "reps": 0,
+      "reps": 1,
       "lapses": 0,
-      "due": "2026-03-22"
+      "due": "2026-03-23",
+      "lastReviewed": "2026-03-22T23:57:42.073Z"
     },
     {
       "id": "card_1774220961750_jjnbsb8hcq9",
@@ -4187,10 +4205,11 @@
       "tags": [],
       "createdAt": "2026-03-22T23:09:21.750Z",
       "interval": 1,
-      "easeFactor": 2.5,
-      "reps": 0,
+      "easeFactor": 2.36,
+      "reps": 1,
       "lapses": 0,
-      "due": "2026-03-22"
+      "due": "2026-03-23",
+      "lastReviewed": "2026-03-22T23:57:44.745Z"
     },
     {
       "id": "card_1774220961750_0hft7jebij1b",
