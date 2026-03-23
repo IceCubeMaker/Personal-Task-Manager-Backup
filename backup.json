@@ -9,9 +9,9 @@
           "id": "start",
           "type": "start",
           "text": "Start",
-          "next": "n_1774111551883",
+          "next": "n_1774224126794",
           "x": -96,
-          "y": 48
+          "y": -120
         },
         "end": {
           "id": "end",
@@ -218,6 +218,15 @@
           "trackingId": null,
           "ankiCount": 3,
           "ankiDeck": "folder::folder_1774222482945"
+        },
+        "n_1774224126794": {
+          "id": "n_1774224126794",
+          "type": "mood",
+          "text": "New step",
+          "next": "n_1774111551883",
+          "x": -96,
+          "y": 24,
+          "moodScale": "3"
         }
       },
       "groups": []
@@ -3707,10 +3716,11 @@
         {
           "id": "t_1774108559969",
           "text": "add auto-saving",
-          "done": false,
+          "done": true,
           "subtasks": [],
           "dueDate": null,
-          "deps": []
+          "deps": [],
+          "doneAt": "2026-03-23T00:19:33.219Z"
         },
         {
           "id": "t_1774109512939",
@@ -3751,10 +3761,11 @@
         {
           "id": "t_1774112704971",
           "text": "add the ability to connect gaming tasks to retroachievements",
-          "done": false,
+          "done": true,
           "subtasks": [],
           "dueDate": null,
-          "deps": []
+          "deps": [],
+          "doneAt": "2026-03-23T00:19:28.559Z"
         },
         {
           "id": "t_1774113011463",
@@ -3784,23 +3795,26 @@
         {
           "id": "t_1774123749185",
           "text": "add a wat to see in the flow chart where you currently are",
-          "done": false,
+          "done": true,
           "subtasks": [],
-          "dueDate": null
+          "dueDate": null,
+          "doneAt": "2026-03-23T00:19:47.938Z"
         },
         {
           "id": "t_1774123764108",
           "text": "add a button in the run mode that will immidiatly open the flowchart you are currently in",
-          "done": false,
+          "done": true,
           "subtasks": [],
-          "dueDate": null
+          "dueDate": null,
+          "doneAt": "2026-03-23T00:19:51.244Z"
         },
         {
           "id": "t_1774123924066",
           "text": "add a mood tracker node",
-          "done": false,
+          "done": true,
           "subtasks": [],
-          "dueDate": null
+          "dueDate": null,
+          "doneAt": "2026-03-23T00:19:53.456Z"
         },
         {
           "id": "t_1774127929065",
@@ -3812,9 +3826,10 @@
         {
           "id": "t_1774131501830",
           "text": "fix the task creator node resetting bug",
-          "done": false,
+          "done": true,
           "subtasks": [],
-          "dueDate": null
+          "dueDate": null,
+          "doneAt": "2026-03-23T00:20:10.455Z"
         },
         {
           "id": "t_1774146158700",
@@ -4017,7 +4032,13 @@
     "t_1774108545806": "2026-03-22T13:49:03.028Z",
     "t_1774109512939": "2026-03-22T13:49:07.240Z",
     "t_1774110409656": "2026-03-22T13:49:10.806Z",
-    "t_1774112886076": "2026-03-22T21:21:42.854Z"
+    "t_1774112886076": "2026-03-22T21:21:42.854Z",
+    "t_1774112704971": "2026-03-23T00:19:29.115Z",
+    "t_1774108559969": "2026-03-23T00:19:33.285Z",
+    "t_1774123749185": "2026-03-23T00:19:47.962Z",
+    "t_1774123764108": "2026-03-23T00:19:51.843Z",
+    "t_1774123924066": "2026-03-23T00:19:53.641Z",
+    "t_1774131501830": "2026-03-23T00:20:11.070Z"
   },
   "dailyCount": {},
   "taskCats": [],
